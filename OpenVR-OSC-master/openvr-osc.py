@@ -49,7 +49,7 @@ def handler(signal_received, frame):
     df["Pitch"] = pitch
     df["Roll"] = roll
     df.to_csv("htc_vive_output.csv")
-    print('SIGINT or CTRL-C detected. Exiting gracefully')
+    #print('SIGINT or CTRL-C detected. Exiting gracefully')
     exit(0)
 
 if __name__ == "__main__":
@@ -73,7 +73,25 @@ if __name__ == "__main__":
 
     # print some stuff
     print(Fore.GREEN + "\rSending OSC tracking data on " + args.ip + ":" + str(args.port), end="\n\n")
-    print(Fore.YELLOW + '{0: <13}'.format("OSC address") + '{0: <9}'.format("X") + '{0: <9}'.format("Y") + '{0: <9}'.format("Z") + '{0: <9}'.format("Yaw") + '{0: <9}'.format("Pitch") + '{0: <9}'.format("Roll"))
+    print(
+        Fore.YELLOW + 
+        '{0: <13}'.format("OSC address") + 
+        '{0: <11}'.format("X") + 
+        '{0: <11}'.format("Y") + 
+        '{0: <11}'.format("Z") + 
+        '{0: <11}'.format("Yaw") + 
+        '{0: <11}'.format("Pitch") + 
+        '{0: <11}'.format("Roll") + 
+        '{0: <14}'.format("unPacketNum") + 
+        '{0: <10}'.format("Trigger") + 
+        '{0: <12}'.format("Trackpad X") + 
+        '{0: <12}'.format("Trackpad Y") + 
+        '{0: <18}'.format("ulButton Pressed") + 
+        '{0: <18}'.format("ulButton Touched") + 
+        '{0: <12}'.format("Menu Button") + 
+        '{0: <18}'.format("Trackpad Pressed") + 
+        '{0: <18}'.format("Trackpad Touched") + 
+        '{0: <12}'.format("Grip Button"))
 
     pose_tracking = pd.DataFrame()
 
@@ -87,6 +105,16 @@ if __name__ == "__main__":
     yaw = []
     pitch = []
     roll = []
+    unpacketnum = []
+    trigger = []
+    trackpad_x = []
+    trackpad_y = []
+    ulbuttonpressed = []
+    ulbuttontouched = []
+    menu_button = []
+    trackpad_pressed = []
+    trackpad_touched = []
+    grip_button = []
 
     with output(output_type="list", initial_len=5, interval=0) as output_list:
         while(True):
@@ -101,6 +129,10 @@ if __name__ == "__main__":
                 for device in devices[deviceType]:
                     # get device post
                     pose = device.get_pose_euler()
+                    velocity = device.get_velocity()
+                    angular_velocity = device.get_angular_velocity()
+                    controller_inputs = device.get_controller_inputs()
+                    haptic_pulse = device.trigger_haptic_pulse()
 
                     # Build message and add to bundle
                     msg = osc_message_builder.OscMessageBuilder(address="/" + deviceType + "/" + device._id)
@@ -110,8 +142,19 @@ if __name__ == "__main__":
                     ### report device pose in the console
                     txt = Fore.CYAN + '{0: <13}'.format(deviceType + device._id) + Fore.WHITE + Style.BRIGHT
                     for each in pose:
-                        txt += '{0: <8}'.format("%.4f" % each)
+                        txt += '{0: <10}'.format("%.4f" % each)
                         txt += " "
+
+                    txt += '{0: <14}'.format(controller_inputs["unPacketNum"])
+                    txt += '{0: <10.4f}'.format(controller_inputs["trigger"])
+                    txt += '{0: <12.4f}'.format(controller_inputs["trackpad_x"])
+                    txt += '{0: <12.4f}'.format(controller_inputs["trackpad_y"])
+                    txt += '{0: <18}'.format(controller_inputs["ulButtonPressed"])
+                    txt += '{0: <18}'.format(controller_inputs["ulButtonTouched"])
+                    txt += '{0: <12}'.format(controller_inputs["menu_button"])
+                    txt += '{0: <18}'.format(controller_inputs["trackpad_pressed"])
+                    txt += '{0: <18}'.format(controller_inputs["trackpad_touched"])
+                    txt += '{0: <12}'.format(controller_inputs["grip_button"])
 
                     device_types.append(deviceType)
                     device_ids.append(device._id)
@@ -121,6 +164,17 @@ if __name__ == "__main__":
                     yaw.append(pose[3])
                     pitch.append(pose[4])
                     roll.append(pose[5])
+
+                    unpacketnum.append(controller_inputs["unPacketNum"])
+                    trigger.append(controller_inputs["trigger"])
+                    trackpad_x.append(controller_inputs["trackpad_x"])
+                    trackpad_y.append(controller_inputs["trackpad_y"])
+                    ulbuttonpressed.append(controller_inputs["ulButtonPressed"])
+                    ulbuttontouched.append(controller_inputs["ulButtonTouched"])
+                    menu_button.append(controller_inputs["menu_button"])
+                    trackpad_pressed.append(controller_inputs["trackpad_pressed"])
+                    trackpad_touched.append(controller_inputs["trackpad_touched"])
+                    grip_button.append(controller_inputs["grip_button"])
 
                     output_list[di] = txt
                     di += 1
