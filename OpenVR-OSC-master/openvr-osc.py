@@ -86,8 +86,8 @@ if __name__ == "__main__":
         '{0: <10}'.format("Trigger") + 
         '{0: <12}'.format("Trackpad X") + 
         '{0: <12}'.format("Trackpad Y") + 
-        '{0: <18}'.format("ulButton Pressed") + 
-        '{0: <18}'.format("ulButton Touched") + 
+        #'{0: <18}'.format("ulButton Pressed") + 
+        #'{0: <18}'.format("ulButton Touched") + 
         '{0: <12}'.format("Menu Button") + 
         '{0: <18}'.format("Trackpad Pressed") + 
         '{0: <18}'.format("Trackpad Touched") + 
@@ -136,21 +136,25 @@ if __name__ == "__main__":
 
                     # Build message and add to bundle
                     msg = osc_message_builder.OscMessageBuilder(address="/" + deviceType + "/" + device._id)
-                    msg.add_arg(device.get_pose_euler())
+                    #msg.add_arg(device.get_pose_euler())
                     bundle.add_content(msg.build())
 
                     ### report device pose in the console
                     txt = Fore.CYAN + '{0: <13}'.format(deviceType + device._id) + Fore.WHITE + Style.BRIGHT
+                    if not pose:
+                        pose = previous_pose
+                
                     for each in pose:
                         txt += '{0: <10}'.format("%.4f" % each)
                         txt += " "
+                    
 
                     txt += '{0: <14}'.format(controller_inputs["unPacketNum"])
                     txt += '{0: <10.4f}'.format(controller_inputs["trigger"])
                     txt += '{0: <12.4f}'.format(controller_inputs["trackpad_x"])
                     txt += '{0: <12.4f}'.format(controller_inputs["trackpad_y"])
-                    txt += '{0: <18}'.format(controller_inputs["ulButtonPressed"])
-                    txt += '{0: <18}'.format(controller_inputs["ulButtonTouched"])
+                    #txt += '{0: <18}'.format(controller_inputs["ulButtonPressed"])
+                    #txt += '{0: <18}'.format(controller_inputs["ulButtonTouched"])
                     txt += '{0: <12}'.format(controller_inputs["menu_button"])
                     txt += '{0: <18}'.format(controller_inputs["trackpad_pressed"])
                     txt += '{0: <18}'.format(controller_inputs["trackpad_touched"])
@@ -178,6 +182,8 @@ if __name__ == "__main__":
 
                     output_list[di] = txt
                     di += 1
+
+                    previous_pose = pose
 
             # Send the bundle
             client.send(bundle.build())
