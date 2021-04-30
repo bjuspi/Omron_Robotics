@@ -1,0 +1,12 @@
+source;share\htc_vive_interfaces\hook\cmake_prefix_path.ps1
+source;share\htc_vive_interfaces\hook\cmake_prefix_path.bat
+source;share\htc_vive_interfaces\hook\cmake_prefix_path.dsv
+source;share\htc_vive_interfaces\hook\path_dll.ps1
+source;share\htc_vive_interfaces\hook\path_dll.bat
+source;share\htc_vive_interfaces\hook\path_dll.dsv
+source;share\htc_vive_interfaces\hook\path.ps1
+source;share\htc_vive_interfaces\hook\path.bat
+source;share\htc_vive_interfaces\hook\path.dsv
+source;share\htc_vive_interfaces\hook\pythonpath.ps1
+source;share\htc_vive_interfaces\hook\pythonpath.bat
+source;share\htc_vive_interfaces\hook\pythonpath.dsv

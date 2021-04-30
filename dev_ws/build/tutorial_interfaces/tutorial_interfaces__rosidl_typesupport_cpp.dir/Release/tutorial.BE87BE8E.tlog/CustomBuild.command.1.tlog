@@ -1,0 +1,20 @@
+^D:\OMRON_ROBOTICS\DEV_WS\BUILD\TUTORIAL_INTERFACES\CMAKEFILES\6D6EFAA350A58589118BC13C43FBD998\NUM__TYPE_SUPPORT.CPP.RULE
+setlocal
+C:\Python38\python.exe "C:/Program Files/ros2foxy/ros2-windows/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp" --generator-arguments-file D:/Omron_Robotics/dev_ws/build/tutorial_interfaces/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_connext_cpp rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\OMRON_ROBOTICS\DEV_WS\SRC\TUTORIAL_INTERFACES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Omron_Robotics/dev_ws/src/tutorial_interfaces -BD:/Omron_Robotics/dev_ws/build/tutorial_interfaces --check-stamp-file D:/Omron_Robotics/dev_ws/build/tutorial_interfaces/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

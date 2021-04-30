@@ -1,0 +1,18 @@
+^D:\OMRON_ROBOTICS\DEV_WS\BUILD\TUTORIAL_INTERFACES\CMAKEFILES\B5AAB3A4E530A3B49B92B1F8C6E42073\TUTORIAL_INTERFACES.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\OMRON_ROBOTICS\DEV_WS\SRC\TUTORIAL_INTERFACES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Omron_Robotics/dev_ws/src/tutorial_interfaces -BD:/Omron_Robotics/dev_ws/build/tutorial_interfaces --check-stamp-file D:/Omron_Robotics/dev_ws/build/tutorial_interfaces/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

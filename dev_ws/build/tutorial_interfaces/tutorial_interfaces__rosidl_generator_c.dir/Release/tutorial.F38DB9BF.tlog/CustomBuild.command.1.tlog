@@ -1,0 +1,20 @@
+^D:\OMRON_ROBOTICS\DEV_WS\BUILD\TUTORIAL_INTERFACES\CMAKEFILES\BBFE4A2F1518452A067CB4A0EED6CC27\NUM.H.RULE
+setlocal
+C:\Python38\python.exe "C:/Program Files/ros2foxy/ros2-windows/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c" --generator-arguments-file D:/Omron_Robotics/dev_ws/build/tutorial_interfaces/rosidl_generator_c__arguments.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\OMRON_ROBOTICS\DEV_WS\SRC\TUTORIAL_INTERFACES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Omron_Robotics/dev_ws/src/tutorial_interfaces -BD:/Omron_Robotics/dev_ws/build/tutorial_interfaces --check-stamp-file D:/Omron_Robotics/dev_ws/build/tutorial_interfaces/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

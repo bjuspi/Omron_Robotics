@@ -1,0 +1,42 @@
+[0.344s] Invoking command in 'D:\Omron_Robotics\dev_ws\src\my_package': PYTHONPATH=D:\Omron_Robotics\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\my_package build --build-base D:\Omron_Robotics\dev_ws\build\my_package\build install --prefix D:\Omron_Robotics\dev_ws\install --record D:\Omron_Robotics\dev_ws\build\my_package\install.log --single-version-externally-managed
+[0.609s] running egg_info
+[0.609s] creating ..\..\build\my_package\my_package.egg-info
+[0.609s] writing ..\..\build\my_package\my_package.egg-info\PKG-INFO
+[0.609s] writing dependency_links to ..\..\build\my_package\my_package.egg-info\dependency_links.txt
+[0.609s] writing entry points to ..\..\build\my_package\my_package.egg-info\entry_points.txt
+[0.609s] writing requirements to ..\..\build\my_package\my_package.egg-info\requires.txt
+[0.609s] writing top-level names to ..\..\build\my_package\my_package.egg-info\top_level.txt
+[0.609s] writing manifest file '..\..\build\my_package\my_package.egg-info\SOURCES.txt'
+[0.625s] reading manifest file '..\..\build\my_package\my_package.egg-info\SOURCES.txt'
+[0.625s] writing manifest file '..\..\build\my_package\my_package.egg-info\SOURCES.txt'
+[0.625s] running build
+[0.625s] running build_py
+[0.625s] creating D:\Omron_Robotics\dev_ws\build\my_package\build
+[0.625s] creating D:\Omron_Robotics\dev_ws\build\my_package\build\lib
+[0.625s] creating D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package
+[0.625s] copying my_package\my_node.py -> D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package
+[0.625s] copying my_package\__init__.py -> D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package
+[0.625s] running install
+[0.625s] running install_lib
+[0.625s] creating D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package
+[0.625s] copying D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package\my_node.py -> D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package
+[0.625s] copying D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package\__init__.py -> D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package
+[0.625s] byte-compiling D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package\my_node.py to my_node.cpython-38.pyc
+[0.625s] byte-compiling D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package\__init__.py to __init__.cpython-38.pyc
+[0.625s] running install_data
+[0.640s] creating D:\Omron_Robotics\dev_ws\install\share\ament_index
+[0.640s] creating D:\Omron_Robotics\dev_ws\install\share\ament_index\resource_index
+[0.640s] creating D:\Omron_Robotics\dev_ws\install\share\ament_index\resource_index\packages
+[0.640s] copying resource\my_package -> D:\Omron_Robotics\dev_ws\install\share\ament_index\resource_index\packages
+[0.640s] copying package.xml -> D:\Omron_Robotics\dev_ws\install\share\my_package
+[0.640s] running install_egg_info
+[0.640s] Copying ..\..\build\my_package\my_package.egg-info to D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package-0.0.0-py3.8.egg-info
+[0.640s] running install_scripts
+[0.656s] Installing my_node-script.py script to D:\Omron_Robotics\dev_ws\install\lib\my_package
+[0.656s] Installing my_node.exe script to D:\Omron_Robotics\dev_ws\install\lib\my_package
+[0.656s] writing list of installed files to 'D:\Omron_Robotics\dev_ws\build\my_package\install.log'
+[0.656s] c:\python38\lib\site-packages\setuptools\dist.py:642: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.656s]   warnings.warn(
+[0.656s] c:\python38\lib\site-packages\setuptools\dist.py:642: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.656s]   warnings.warn(
+[0.687s] Invoked command in 'D:\Omron_Robotics\dev_ws\src\my_package' returned '0': PYTHONPATH=D:\Omron_Robotics\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\python38\python.exe setup.py egg_info --egg-base ..\..\build\my_package build --build-base D:\Omron_Robotics\dev_ws\build\my_package\build install --prefix D:\Omron_Robotics\dev_ws\install --record D:\Omron_Robotics\dev_ws\build\my_package\install.log --single-version-externally-managed

@@ -1,0 +1,1 @@
+Invoking command in 'D:\Omron_Robotics\dev_ws\build\tutorial_interfaces': C:\Program Files\CMake\bin\cmake.EXE D:\Omron_Robotics\dev_ws\src\tutorial_interfaces -DCMAKE_INSTALL_PREFIX=D:\Omron_Robotics\dev_ws\install

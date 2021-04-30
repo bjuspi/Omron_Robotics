@@ -82,12 +82,12 @@ if __name__ == "__main__":
         '{0: <11}'.format("Yaw") + 
         '{0: <11}'.format("Pitch") + 
         '{0: <11}'.format("Roll") + 
-        '{0: <14}'.format("unPacketNum") + 
+        # '{0: <14}'.format("unPacketNum") + 
         '{0: <10}'.format("Trigger") + 
         '{0: <12}'.format("Trackpad X") + 
         '{0: <12}'.format("Trackpad Y") + 
-        #'{0: <18}'.format("ulButton Pressed") + 
-        #'{0: <18}'.format("ulButton Touched") + 
+        # '{0: <18}'.format("ulButton Pressed") + 
+        # '{0: <18}'.format("ulButton Touched") + 
         '{0: <12}'.format("Menu Button") + 
         '{0: <18}'.format("Trackpad Pressed") + 
         '{0: <18}'.format("Trackpad Touched") + 
@@ -149,12 +149,12 @@ if __name__ == "__main__":
                         txt += " "
                     
 
-                    txt += '{0: <14}'.format(controller_inputs["unPacketNum"])
+                    # txt += '{0: <14}'.format(controller_inputs["unPacketNum"])
                     txt += '{0: <10.4f}'.format(controller_inputs["trigger"])
                     txt += '{0: <12.4f}'.format(controller_inputs["trackpad_x"])
                     txt += '{0: <12.4f}'.format(controller_inputs["trackpad_y"])
-                    #txt += '{0: <18}'.format(controller_inputs["ulButtonPressed"])
-                    #txt += '{0: <18}'.format(controller_inputs["ulButtonTouched"])
+                    # txt += '{0: <18}'.format(controller_inputs["ulButtonPressed"])
+                    # txt += '{0: <18}'.format(controller_inputs["ulButtonTouched"])
                     txt += '{0: <12}'.format(controller_inputs["menu_button"])
                     txt += '{0: <18}'.format(controller_inputs["trackpad_pressed"])
                     txt += '{0: <18}'.format(controller_inputs["trackpad_touched"])

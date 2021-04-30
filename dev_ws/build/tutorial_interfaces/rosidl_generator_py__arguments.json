@@ -1,0 +1,24 @@
+{
+  "package_name": "tutorial_interfaces",
+  "output_dir": "D:/Omron_Robotics/dev_ws/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces",
+  "template_dir": "C:/Program Files/ros2foxy/ros2-windows/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "D:/Omron_Robotics/dev_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Num.idl"
+  ],
+  "target_dependencies": [
+    "C:/Program Files/ros2foxy/ros2-windows/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "C:/Program Files/ros2foxy/ros2-windows/Lib/site-packages/rosidl_generator_py/__init__.py",
+    "C:/Program Files/ros2foxy/ros2-windows/Lib/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "C:/Program Files/ros2foxy/ros2-windows/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "C:/Program Files/ros2foxy/ros2-windows/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "C:/Program Files/ros2foxy/ros2-windows/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "C:/Program Files/ros2foxy/ros2-windows/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "C:/Program Files/ros2foxy/ros2-windows/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "C:/Program Files/ros2foxy/ros2-windows/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "C:/Program Files/ros2foxy/ros2-windows/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "C:/Program Files/ros2foxy/ros2-windows/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "C:/Program Files/ros2foxy/ros2-windows/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "C:/Program Files/ros2foxy/ros2-windows/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "D:/Omron_Robotics/dev_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/Num.idl"
+  ]
+}
