@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Omron_Robotics\dev_ws\build\vive_interfaces\rosidl_typesupport_fastrtps_c\vive_interfaces\msg\detail\hmd__type_support_c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Omron_Robotics\dev_ws\build\vive_interfaces\rosidl_typesupport_fastrtps_c\vive_interfaces\msg\detail\hmd__rosidl_typesupport_fastrtps_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Omron_Robotics\dev_ws\build\vive_interfaces\CMakeFiles\3da4d054bec99c1aca9e15965829332d\hmd__rosidl_typesupport_fastrtps_c.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Omron_Robotics\dev_ws\src\vive_interfaces\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4ED435E3-B977-3E4D-B4A4-A97167DE979C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F2CA1043-CECA-3CA4-A811-8772E388FBB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5A723B89-178A-3B4B-B5D0-264B970610B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

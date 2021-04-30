@@ -1,0 +1,24 @@
+{
+  "package_name": "vive_interfaces",
+  "output_dir": "D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_generator_py/vive_interfaces",
+  "template_dir": "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces:msg/Hmd.idl"
+  ],
+  "target_dependencies": [
+    "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/Lib/site-packages/rosidl_generator_py/__init__.py",
+    "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/Lib/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces/msg/Hmd.idl"
+  ]
+}

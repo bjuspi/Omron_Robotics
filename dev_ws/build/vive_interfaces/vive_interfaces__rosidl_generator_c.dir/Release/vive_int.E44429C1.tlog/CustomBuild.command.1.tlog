@@ -1,0 +1,20 @@
+^D:\OMRON_ROBOTICS\DEV_WS\BUILD\VIVE_INTERFACES\CMAKEFILES\70EEF55313B4FBBA19F63F293E44810A\HMD.H.RULE
+setlocal
+C:\Python38\python.exe C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_generator_c__arguments.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\OMRON_ROBOTICS\DEV_WS\SRC\VIVE_INTERFACES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Omron_Robotics/dev_ws/src/vive_interfaces -BD:/Omron_Robotics/dev_ws/build/vive_interfaces --check-stamp-file D:/Omron_Robotics/dev_ws/build/vive_interfaces/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

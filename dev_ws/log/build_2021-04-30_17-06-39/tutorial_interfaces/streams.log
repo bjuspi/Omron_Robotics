@@ -1,0 +1,34 @@
+[0.047s] Invoking command in 'D:\Omron_Robotics\dev_ws\build\tutorial_interfaces': C:\Program Files\CMake\bin\cmake.EXE D:\Omron_Robotics\dev_ws\src\tutorial_interfaces -DCMAKE_INSTALL_PREFIX=D:\Omron_Robotics\dev_ws\install
+[0.078s] -- Selecting Windows SDK version 10.0.16299.0 to target Windows 10.0.19041.
+[1.860s] -- The C compiler identification is MSVC 19.28.29913.0
+[2.735s] -- The CXX compiler identification is MSVC 19.28.29913.0
+[2.766s] -- Detecting C compiler ABI info
+[3.656s] -- Detecting C compiler ABI info - done
+[3.672s] -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe - skipped
+[3.672s] -- Detecting C compile features
+[3.672s] -- Detecting C compile features - done
+[3.688s] -- Detecting CXX compiler ABI info
+[4.531s] -- Detecting CXX compiler ABI info - done
+[4.547s] -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe - skipped
+[4.547s] -- Detecting CXX compile features
+[4.547s] -- Detecting CXX compile features - done
+[4.906s] CMake Error at CMakeLists.txt:19 (find_package):
+[4.906s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[4.906s]   has asked CMake to find a package configuration file provided by
+[4.906s]   "ament_cmake", but CMake did not find one.
+[4.906s] 
+[4.906s]   Could not find a package configuration file provided by "ament_cmake" with
+[4.906s]   any of the following names:
+[4.906s] 
+[4.906s]     ament_cmakeConfig.cmake
+[4.906s]     ament_cmake-config.cmake
+[4.906s] 
+[4.906s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[4.906s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[4.906s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[4.906s]   has been installed.
+[4.906s] 
+[4.906s] 
+[4.906s] -- Configuring incomplete, errors occurred!
+[4.906s] See also "D:/Omron_Robotics/dev_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[4.985s] Invoked command in 'D:\Omron_Robotics\dev_ws\build\tutorial_interfaces' returned '1': C:\Program Files\CMake\bin\cmake.EXE D:\Omron_Robotics\dev_ws\src\tutorial_interfaces -DCMAKE_INSTALL_PREFIX=D:\Omron_Robotics\dev_ws\install

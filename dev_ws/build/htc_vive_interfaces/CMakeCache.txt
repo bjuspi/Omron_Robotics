@@ -254,7 +254,7 @@ TinyXML2_DIR:PATH=C:/ProgramData/chocolatey/lib/tinyxml2/share/cmake
 _lib:FILEPATH=C:/Program Files/ros2foxy/ros2-windows/Lib/rosidl_typesupport_cpp.lib
 
 //The directory containing a CMake configuration file for ament_cmake.
-ament_cmake_DIR:PATH=C:/Program Files/ros2foxy/ros2-windows/share/ament_cmake/cmake
+ament_cmake_DIR:PATH=ament_cmake_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for ament_cmake_copyright.
 ament_cmake_copyright_DIR:PATH=C:/Program Files/ros2foxy/ros2-windows/share/ament_cmake_copyright/cmake

@@ -274,7 +274,7 @@ _lib:FILEPATH=C:/Program Files/ros2foxy/ros2-windows/Lib/rosidl_typesupport_cpp.
 _numpy_h:FILEPATH=_numpy_h-NOTFOUND
 
 //The directory containing a CMake configuration file for ament_cmake.
-ament_cmake_DIR:PATH=C:/Program Files/ros2foxy/ros2-windows/share/ament_cmake/cmake
+ament_cmake_DIR:PATH=ament_cmake_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for ament_cmake_copyright.
 ament_cmake_copyright_DIR:PATH=C:/Program Files/ros2foxy/ros2-windows/share/ament_cmake_copyright/cmake
@@ -583,7 +583,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

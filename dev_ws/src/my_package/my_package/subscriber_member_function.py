@@ -16,7 +16,7 @@ import rclpy
 from rclpy.node import Node
 
 from std_msgs.msg import String
-from tutorial_interfaces.msg import Num
+from vive_interfaces.msg import Hmd
 
 
 class MinimalSubscriber(Node):
@@ -24,14 +24,14 @@ class MinimalSubscriber(Node):
     def __init__(self):
         super().__init__('minimal_subscriber')
         self.subscription = self.create_subscription(
-            Num,
+            Hmd,
             'topic',
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning
 
     def listener_callback(self, msg):
-        self.get_logger().info('I heard: "%s"' % msg.num)
+        self.get_logger().info('I heard: "%s"' % msg.x)
 
 
 def main(args=None):

@@ -16,23 +16,44 @@ import rclpy
 from rclpy.node import Node
 
 from std_msgs.msg import String
-from tutorial_interfaces.msg import Num
+from vive_interfaces.msg import Hmd
+
 
 class MinimalPublisher(Node):
 
     def __init__(self):
         super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(Num, 'topic', 10)
+        self.publisher_ = self.create_publisher(Hmd, 'topic', 10)
         timer_period = 0.5  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
 
     def timer_callback(self):
-        msg = Num()
-        msg.num = self.i
+        msg = Hmd()
+        msg.x = float(self.i)
+        msg.y = float(self.i)
+        msg.z = float(self.i)
+        msg.yaw = float(self.i)
+        msg.pitch = float(self.i)
+        msg.roll = float(self.i)
+
         # msg.data = 'Hello World: %d' % self.i
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.num)
+        text = "Publishing: "
+        text += '{0: <10}'.format("%.4f" % msg.x)
+        text += " "
+        text += '{0: <10}'.format("%.4f" % msg.y)
+        text += " "
+        text += '{0: <10}'.format("%.4f" % msg.z)
+        text += " "
+        text += '{0: <10}'.format("%.4f" % msg.yaw)
+        text += " "
+        text += '{0: <10}'.format("%.4f" % msg.pitch)
+        text += " "
+        text += '{0: <10}'.format("%.4f" % msg.roll)
+        text += " "
+
+        self.get_logger().info(text)
         self.i += 1
 
 

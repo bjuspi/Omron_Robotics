@@ -1,0 +1,6 @@
+{
+  "package_name": "vive_interfaces",
+  "non_idl_tuples": [
+    "D:/Omron_Robotics/dev_ws/src/vive_interfaces:msg/Hmd.msg"
+  ]
+}

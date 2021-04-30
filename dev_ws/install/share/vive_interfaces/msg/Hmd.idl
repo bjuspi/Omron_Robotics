@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vive_interfaces/msg\Hmd.msg
+// generated code does not contain a copyright notice
+
+
+module vive_interfaces {
+  module msg {
+    struct Hmd {
+      float x;
+
+      float y;
+
+      float z;
+
+      float yaw;
+
+      float pitch;
+
+      float roll;
+    };
+  };
+};
