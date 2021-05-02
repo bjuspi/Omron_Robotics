@@ -1,2 +1,0 @@
-Invoking command in 'D:\Omron_Robotics\dev_ws\build\htc_vive_interfaces': C:\Program Files\CMake\bin\cmake.EXE D:\Omron_Robotics\dev_ws\src\htc_vive_interfaces -DCMAKE_INSTALL_PREFIX=D:\Omron_Robotics\dev_ws\install -G Visual Studio 16 2019
-Invoked command in 'D:\Omron_Robotics\dev_ws\build\htc_vive_interfaces' returned '1': C:\Program Files\CMake\bin\cmake.EXE D:\Omron_Robotics\dev_ws\src\htc_vive_interfaces -DCMAKE_INSTALL_PREFIX=D:\Omron_Robotics\dev_ws\install -G Visual Studio 16 2019

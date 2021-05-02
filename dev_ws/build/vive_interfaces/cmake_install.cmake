@@ -243,7 +243,7 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
-        "C:/Python38/python.exe" "-m" "compileall"
+        "D:/Omron_Robotics/dev_ws/venv/Scripts/python.exe" "-m" "compileall"
         "D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/__init__.py"
       )
 endif()
@@ -365,7 +365,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vive_interfaces/environment" TYPE FILE FILES "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.bat")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vive_interfaces/environment" TYPE FILE FILES "C:/Program Files/ros2foxy/ros2-windows/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.bat")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -373,7 +373,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vive_interfaces/environment" TYPE FILE FILES "C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/ament_cmake_core/cmake/environment_hooks/environment/path.bat")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vive_interfaces/environment" TYPE FILE FILES "C:/Program Files/ros2foxy/ros2-windows/share/ament_cmake_core/cmake/environment_hooks/environment/path.bat")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

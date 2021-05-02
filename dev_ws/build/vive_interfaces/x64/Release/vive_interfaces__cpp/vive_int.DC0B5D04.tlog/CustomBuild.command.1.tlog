@@ -1,6 +1,6 @@
 ^D:\OMRON_ROBOTICS\DEV_WS\BUILD\VIVE_INTERFACES\CMAKEFILES\0C4CA5B38C6F460E55E80D3ADBE401DB\HMD.HPP.RULE
 setlocal
-C:\Python38\python.exe C:/dev/ros2_foxy/ros2-foxy-20201211-windows-release.amd64/ros2-windows/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_generator_cpp__arguments.json
+D:\Omron_Robotics\dev_ws\venv\Scripts\python.exe "C:/Program Files/ros2foxy/ros2-windows/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp" --generator-arguments-file D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_generator_cpp__arguments.json
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
