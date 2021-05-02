@@ -12,7 +12,7 @@ if ($env:COLCON_PYTHON_EXECUTABLE) {
   $_colcon_python_executable="$env:COLCON_PYTHON_EXECUTABLE"
 } else {
   # use the Python executable known at configure time
-  $_colcon_python_executable="d:\hiverlab\omron_robotics\dev_ws\venv\scripts\python.exe"
+  $_colcon_python_executable="d:\omron_robotics\dev_ws\venv\scripts\python.exe"
   # if it doesn't exist try a fall back
   if (!(Test-Path "$_colcon_python_executable" -PathType Leaf)) {
     if (!(Get-Command "python" -ErrorAction SilentlyContinue)) {

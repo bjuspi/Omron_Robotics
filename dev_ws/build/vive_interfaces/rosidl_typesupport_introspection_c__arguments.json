@@ -1,10 +1,10 @@
 {
   "package_name": "vive_interfaces",
-  "output_dir": "D:/Hiverlab/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_typesupport_introspection_c/vive_interfaces",
+  "output_dir": "D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_typesupport_introspection_c/vive_interfaces",
   "template_dir": "C:/dev/ros2_foxy/ros2-windows/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "D:/Hiverlab/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces:msg/Hmd.idl",
-    "D:/Hiverlab/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces:msg/Controller.idl"
+    "D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces:msg/Hmd.idl",
+    "D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces:msg/Controller.idl"
   ],
   "target_dependencies": [
     "C:/dev/ros2_foxy/ros2-windows/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
@@ -15,7 +15,7 @@
     "C:/dev/ros2_foxy/ros2-windows/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
     "C:/dev/ros2_foxy/ros2-windows/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "C:/dev/ros2_foxy/ros2-windows/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
-    "D:/Hiverlab/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces/msg/Hmd.idl",
-    "D:/Hiverlab/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces/msg/Controller.idl"
+    "D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces/msg/Hmd.idl",
+    "D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces/msg/Controller.idl"
   ]
 }

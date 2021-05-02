@@ -1,10 +1,10 @@
 {
   "package_name": "vive_interfaces",
-  "output_dir": "D:/Hiverlab/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_generator_cpp/vive_interfaces",
+  "output_dir": "D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_generator_cpp/vive_interfaces",
   "template_dir": "C:/dev/ros2_foxy/ros2-windows/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "D:/Hiverlab/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces:msg/Hmd.idl",
-    "D:/Hiverlab/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces:msg/Controller.idl"
+    "D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces:msg/Hmd.idl",
+    "D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces:msg/Controller.idl"
   ],
   "target_dependencies": [
     "C:/dev/ros2_foxy/ros2-windows/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -22,7 +22,7 @@
     "C:/dev/ros2_foxy/ros2-windows/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "C:/dev/ros2_foxy/ros2-windows/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "C:/dev/ros2_foxy/ros2-windows/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "D:/Hiverlab/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces/msg/Hmd.idl",
-    "D:/Hiverlab/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces/msg/Controller.idl"
+    "D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces/msg/Hmd.idl",
+    "D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_adapter/vive_interfaces/msg/Controller.idl"
   ]
 }

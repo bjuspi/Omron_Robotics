@@ -1,0 +1,20 @@
+^D:\OMRON_ROBOTICS\DEV_WS\BUILD\VIVE_INTERFACES\CMAKEFILES\1B1D0C6B1B14651E899E2856806AF326\HMD__ROSIDL_TYPESUPPORT_INTROSPECTION_C.H.RULE
+setlocal
+D:\Omron_Robotics\dev_ws\venv\Scripts\python.exe C:/dev/ros2_foxy/ros2-windows/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_typesupport_introspection_c__arguments.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\OMRON_ROBOTICS\DEV_WS\SRC\VIVE_INTERFACES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Omron_Robotics/dev_ws/src/vive_interfaces -BD:/Omron_Robotics/dev_ws/build/vive_interfaces --check-stamp-file D:/Omron_Robotics/dev_ws/build/vive_interfaces/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,4 +1,4 @@
 [console_scripts]
-listener = my_package.subscriber_member_function:main
-talker = my_package.publisher_member_function:main
+hmd_listener = my_package.hmd_subscriber:main
+hmd_talker = my_package.hmd_publisher:main
 

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\Hiverlab\Omron_Robotics\dev_ws\build\vive_interfaces\CMakeFiles\fec264507f1fe76b8caab7aa2ee5a81e\RUN_TESTS_force.rule">
+    <CustomBuild Include="D:\Omron_Robotics\dev_ws\build\vive_interfaces\CMakeFiles\0d44bc36c87e77359a5a2d84436868a9\RUN_TESTS_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{BBFC634A-BE55-3E8D-B5CC-F7048EC0B6D0}</UniqueIdentifier>
+      <UniqueIdentifier>{4ED435E3-B977-3E4D-B4A4-A97167DE979C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
