@@ -1,6 +1,6 @@
 ^D:\OMRON_ROBOTICS\DEV_WS\BUILD\VIVE_INTERFACES\CMAKEFILES\1F0024386C8C0D852F187E341B39123F\HMD__TYPE_SUPPORT.CPP.RULE
 setlocal
-D:\Omron_Robotics\dev_ws\venv\Scripts\python.exe "C:/Program Files/ros2foxy/ros2-windows/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp" --generator-arguments-file D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_connext_cpp rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
+D:\Omron_Robotics\dev_ws\venv\Scripts\python.exe C:/dev/ros2_foxy/ros2-windows/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file D:/Omron_Robotics/dev_ws/build/vive_interfaces/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_connext_cpp rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
