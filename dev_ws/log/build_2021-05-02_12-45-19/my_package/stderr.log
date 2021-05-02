@@ -1,5 +1,0 @@
-  File "D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package\publisher_member_function.py", line 4
-    from __future__ import print_function
-    ^
-SyntaxError: from __future__ imports must occur at the beginning of the file
-

@@ -1,0 +1,13 @@
+float32 x
+float32 y
+float32 z
+float32 yaw
+float32 pitch
+float32 roll
+bool grip
+bool menu
+bool trigger
+bool trackpad_pressed
+bool trackpad_touched
+float32 trackpad_x
+float32 trackpad_y

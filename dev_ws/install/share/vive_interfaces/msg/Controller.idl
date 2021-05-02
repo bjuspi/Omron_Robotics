@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vive_interfaces/msg\Controller.msg
+// generated code does not contain a copyright notice
+
+
+module vive_interfaces {
+  module msg {
+    struct Controller {
+      float x;
+
+      float y;
+
+      float z;
+
+      float yaw;
+
+      float pitch;
+
+      float roll;
+
+      boolean grip;
+
+      boolean menu;
+
+      boolean trigger;
+
+      boolean trackpad_pressed;
+
+      boolean trackpad_touched;
+
+      float trackpad_x;
+
+      float trackpad_y;
+    };
+  };
+};

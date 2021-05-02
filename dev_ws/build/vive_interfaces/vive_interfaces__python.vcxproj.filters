@@ -1,16 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Omron_Robotics\dev_ws\build\vive_interfaces\rosidl_generator_py\vive_interfaces\msg\_hmd_s.c">
+    <ClCompile Include="D:\Hiverlab\Omron_Robotics\dev_ws\build\vive_interfaces\rosidl_generator_py\vive_interfaces\msg\_hmd_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Hiverlab\Omron_Robotics\dev_ws\build\vive_interfaces\rosidl_generator_py\vive_interfaces\msg\_controller_s.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Omron_Robotics\dev_ws\src\vive_interfaces\CMakeLists.txt" />
+    <CustomBuild Include="D:\Hiverlab\Omron_Robotics\dev_ws\src\vive_interfaces\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5A723B89-178A-3B4B-B5D0-264B970610B4}</UniqueIdentifier>
+      <UniqueIdentifier>{56AFB158-B604-3843-9C40-DC4B8897EA1E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

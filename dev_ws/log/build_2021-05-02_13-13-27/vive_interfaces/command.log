@@ -1,0 +1,6 @@
+Invoking command in 'D:\Hiverlab\Omron_Robotics\dev_ws\build\vive_interfaces': C:\Program Files\CMake\bin\cmake.EXE D:\Hiverlab\Omron_Robotics\dev_ws\src\vive_interfaces -DCMAKE_INSTALL_PREFIX=D:\Hiverlab\Omron_Robotics\dev_ws\install -G Visual Studio 16 2019
+Invoked command in 'D:\Hiverlab\Omron_Robotics\dev_ws\build\vive_interfaces' returned '0': C:\Program Files\CMake\bin\cmake.EXE D:\Hiverlab\Omron_Robotics\dev_ws\src\vive_interfaces -DCMAKE_INSTALL_PREFIX=D:\Hiverlab\Omron_Robotics\dev_ws\install -G Visual Studio 16 2019
+Invoking command in 'D:\Hiverlab\Omron_Robotics\dev_ws\build\vive_interfaces': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build D:\Hiverlab\Omron_Robotics\dev_ws\build\vive_interfaces --config Release
+Invoked command in 'D:\Hiverlab\Omron_Robotics\dev_ws\build\vive_interfaces' returned '0': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build D:\Hiverlab\Omron_Robotics\dev_ws\build\vive_interfaces --config Release
+Invoking command in 'D:\Hiverlab\Omron_Robotics\dev_ws\build\vive_interfaces': C:\Program Files\CMake\bin\cmake.EXE --install D:\Hiverlab\Omron_Robotics\dev_ws\build\vive_interfaces --config Release
+Invoked command in 'D:\Hiverlab\Omron_Robotics\dev_ws\build\vive_interfaces' returned '0': C:\Program Files\CMake\bin\cmake.EXE --install D:\Hiverlab\Omron_Robotics\dev_ws\build\vive_interfaces --config Release

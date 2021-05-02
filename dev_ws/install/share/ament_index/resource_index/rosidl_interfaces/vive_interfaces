@@ -1,2 +1,4 @@
+msg/Controller.idl
+msg/Controller.msg
 msg/Hmd.idl
 msg/Hmd.msg

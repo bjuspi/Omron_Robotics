@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Omron_Robotics\dev_ws\build\vive_interfaces\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>D:\Hiverlab\Omron_Robotics\dev_ws\build\vive_interfaces\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
