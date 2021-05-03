@@ -4,15 +4,19 @@
 
 Hiverlab Omron Robotics R & D
 
-# ROS2 dependencies
+# Dependencies
+
+---
+
+## ROS2 dependencies
 
 `pip install catkin_pkg cryptography empy ifcfg lark-parser lxml netifaces numpy opencv-python pyparsing pyyaml setuptools`
 
-# RQt dependencies
+## RQt dependencies
 
 `pip install -U pydot PyQt5`
 
-# Colcon dependencies
+## Colcon dependencies
 
 `pip install colcon-common-extensions`
 
