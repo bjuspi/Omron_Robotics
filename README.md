@@ -1,5 +1,5 @@
 # Omron_Robotics
 
-Hiverlab Omron Robotics R & d
+Hiverlab Omron Robotics R & D
 
 ---
