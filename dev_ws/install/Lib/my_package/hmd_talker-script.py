@@ -1,4 +1,4 @@
-#!d:\omron_robotics\dev_ws\venv\scripts\python.exe
+#!d:\hiverlab\omron_robotics\dev_ws\venv\scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'my-package==0.0.0','console_scripts','hmd_talker'
 __requires__ = 'my-package==0.0.0'
 import re

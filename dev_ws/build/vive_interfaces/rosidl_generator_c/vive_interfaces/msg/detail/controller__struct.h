@@ -26,11 +26,11 @@ typedef struct vive_interfaces__msg__Controller
   float yaw;
   float pitch;
   float roll;
-  bool grip;
-  bool menu;
-  bool trigger;
-  bool trackpad_pressed;
-  bool trackpad_touched;
+  int8_t grip;
+  int8_t menu;
+  float trigger;
+  int8_t trackpad_pressed;
+  int8_t trackpad_touched;
   float trackpad_x;
   float trackpad_y;
 } vive_interfaces__msg__Controller;

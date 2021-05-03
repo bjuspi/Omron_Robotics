@@ -124,7 +124,7 @@ static rosidl_typesupport_introspection_c__MessageMember Controller__rosidl_type
   },
   {
     "grip",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT8,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -139,7 +139,7 @@ static rosidl_typesupport_introspection_c__MessageMember Controller__rosidl_type
   },
   {
     "menu",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT8,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -154,7 +154,7 @@ static rosidl_typesupport_introspection_c__MessageMember Controller__rosidl_type
   },
   {
     "trigger",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -169,7 +169,7 @@ static rosidl_typesupport_introspection_c__MessageMember Controller__rosidl_type
   },
   {
     "trackpad_pressed",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT8,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -184,7 +184,7 @@ static rosidl_typesupport_introspection_c__MessageMember Controller__rosidl_type
   },
   {
     "trackpad_touched",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT8,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array

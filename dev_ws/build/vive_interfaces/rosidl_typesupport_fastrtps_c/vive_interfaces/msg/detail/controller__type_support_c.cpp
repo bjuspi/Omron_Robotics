@@ -81,27 +81,27 @@ static bool _Controller__cdr_serialize(
 
   // Field name: grip
   {
-    cdr << (ros_message->grip ? true : false);
+    cdr << ros_message->grip;
   }
 
   // Field name: menu
   {
-    cdr << (ros_message->menu ? true : false);
+    cdr << ros_message->menu;
   }
 
   // Field name: trigger
   {
-    cdr << (ros_message->trigger ? true : false);
+    cdr << ros_message->trigger;
   }
 
   // Field name: trackpad_pressed
   {
-    cdr << (ros_message->trackpad_pressed ? true : false);
+    cdr << ros_message->trackpad_pressed;
   }
 
   // Field name: trackpad_touched
   {
-    cdr << (ros_message->trackpad_touched ? true : false);
+    cdr << ros_message->trackpad_touched;
   }
 
   // Field name: trackpad_x
@@ -158,37 +158,27 @@ static bool _Controller__cdr_deserialize(
 
   // Field name: grip
   {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->grip = tmp ? true : false;
+    cdr >> ros_message->grip;
   }
 
   // Field name: menu
   {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->menu = tmp ? true : false;
+    cdr >> ros_message->menu;
   }
 
   // Field name: trigger
   {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->trigger = tmp ? true : false;
+    cdr >> ros_message->trigger;
   }
 
   // Field name: trackpad_pressed
   {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->trackpad_pressed = tmp ? true : false;
+    cdr >> ros_message->trackpad_pressed;
   }
 
   // Field name: trackpad_touched
   {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->trackpad_touched = tmp ? true : false;
+    cdr >> ros_message->trackpad_touched;
   }
 
   // Field name: trackpad_x
@@ -378,7 +368,8 @@ size_t max_serialized_size_vive_interfaces__msg__Controller(
   {
     size_t array_size = 1;
 
-    current_alignment += array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
   // member: trackpad_pressed
   {

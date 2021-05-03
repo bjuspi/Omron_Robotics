@@ -22,6 +22,10 @@ setup(
         'console_scripts': [
             'hmd_talker = my_package.hmd_publisher:main',
             'hmd_listener = my_package.hmd_subscriber:main',
+            'talker = my_package.publisher:main',
+            'listener_hmd = my_package.subscriber_hmd:main',
+            'listener_controller1 = my_package.subscriber_controller1:main',
+            'listener_controller2 = my_package.subscriber_controller2:main',
         ],
     },
 )

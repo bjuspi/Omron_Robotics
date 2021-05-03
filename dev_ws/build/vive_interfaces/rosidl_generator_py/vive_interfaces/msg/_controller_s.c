@@ -109,8 +109,8 @@ bool vive_interfaces__msg__controller__convert_from_py(PyObject * _pymsg, void *
     if (!field) {
       return false;
     }
-    assert(PyBool_Check(field));
-    ros_message->grip = (Py_True == field);
+    assert(PyLong_Check(field));
+    ros_message->grip = (int8_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
   {  // menu
@@ -118,8 +118,8 @@ bool vive_interfaces__msg__controller__convert_from_py(PyObject * _pymsg, void *
     if (!field) {
       return false;
     }
-    assert(PyBool_Check(field));
-    ros_message->menu = (Py_True == field);
+    assert(PyLong_Check(field));
+    ros_message->menu = (int8_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
   {  // trigger
@@ -127,8 +127,8 @@ bool vive_interfaces__msg__controller__convert_from_py(PyObject * _pymsg, void *
     if (!field) {
       return false;
     }
-    assert(PyBool_Check(field));
-    ros_message->trigger = (Py_True == field);
+    assert(PyFloat_Check(field));
+    ros_message->trigger = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
   {  // trackpad_pressed
@@ -136,8 +136,8 @@ bool vive_interfaces__msg__controller__convert_from_py(PyObject * _pymsg, void *
     if (!field) {
       return false;
     }
-    assert(PyBool_Check(field));
-    ros_message->trackpad_pressed = (Py_True == field);
+    assert(PyLong_Check(field));
+    ros_message->trackpad_pressed = (int8_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
   {  // trackpad_touched
@@ -145,8 +145,8 @@ bool vive_interfaces__msg__controller__convert_from_py(PyObject * _pymsg, void *
     if (!field) {
       return false;
     }
-    assert(PyBool_Check(field));
-    ros_message->trackpad_touched = (Py_True == field);
+    assert(PyLong_Check(field));
+    ros_message->trackpad_touched = (int8_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
   {  // trackpad_x
@@ -257,7 +257,7 @@ PyObject * vive_interfaces__msg__controller__convert_to_py(void * raw_ros_messag
   }
   {  // grip
     PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->grip ? 1 : 0);
+    field = PyLong_FromLong(ros_message->grip);
     {
       int rc = PyObject_SetAttrString(_pymessage, "grip", field);
       Py_DECREF(field);
@@ -268,7 +268,7 @@ PyObject * vive_interfaces__msg__controller__convert_to_py(void * raw_ros_messag
   }
   {  // menu
     PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->menu ? 1 : 0);
+    field = PyLong_FromLong(ros_message->menu);
     {
       int rc = PyObject_SetAttrString(_pymessage, "menu", field);
       Py_DECREF(field);
@@ -279,7 +279,7 @@ PyObject * vive_interfaces__msg__controller__convert_to_py(void * raw_ros_messag
   }
   {  // trigger
     PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->trigger ? 1 : 0);
+    field = PyFloat_FromDouble(ros_message->trigger);
     {
       int rc = PyObject_SetAttrString(_pymessage, "trigger", field);
       Py_DECREF(field);
@@ -290,7 +290,7 @@ PyObject * vive_interfaces__msg__controller__convert_to_py(void * raw_ros_messag
   }
   {  // trackpad_pressed
     PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->trackpad_pressed ? 1 : 0);
+    field = PyLong_FromLong(ros_message->trackpad_pressed);
     {
       int rc = PyObject_SetAttrString(_pymessage, "trackpad_pressed", field);
       Py_DECREF(field);
@@ -301,7 +301,7 @@ PyObject * vive_interfaces__msg__controller__convert_to_py(void * raw_ros_messag
   }
   {  // trackpad_touched
     PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->trackpad_touched ? 1 : 0);
+    field = PyLong_FromLong(ros_message->trackpad_touched);
     {
       int rc = PyObject_SetAttrString(_pymessage, "trackpad_touched", field);
       Py_DECREF(field);

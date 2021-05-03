@@ -1,0 +1,29 @@
+[0.922s] Invoking command in 'D:\Hiverlab\Omron_Robotics\dev_ws\src\my_package': PYTHONPATH=D:\Hiverlab\Omron_Robotics\dev_ws\install\Lib\site-packages;%PYTHONPATH% d:\hiverlab\omron_robotics\dev_ws\venv\scripts\python.exe setup.py egg_info --egg-base ..\..\build\my_package build --build-base D:\Hiverlab\Omron_Robotics\dev_ws\build\my_package\build install --prefix D:\Hiverlab\Omron_Robotics\dev_ws\install --record D:\Hiverlab\Omron_Robotics\dev_ws\build\my_package\install.log --single-version-externally-managed
+[1.344s] running egg_info
+[1.344s] writing ..\..\build\my_package\my_package.egg-info\PKG-INFO
+[1.344s] writing dependency_links to ..\..\build\my_package\my_package.egg-info\dependency_links.txt
+[1.344s] writing entry points to ..\..\build\my_package\my_package.egg-info\entry_points.txt
+[1.359s] writing requirements to ..\..\build\my_package\my_package.egg-info\requires.txt
+[1.359s] writing top-level names to ..\..\build\my_package\my_package.egg-info\top_level.txt
+[1.375s] reading manifest file '..\..\build\my_package\my_package.egg-info\SOURCES.txt'
+[1.390s] writing manifest file '..\..\build\my_package\my_package.egg-info\SOURCES.txt'
+[1.390s] running build
+[1.390s] running build_py
+[1.390s] copying my_package\publisher.py -> D:\Hiverlab\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package
+[1.390s] running install
+[1.390s] running install_lib
+[1.390s] copying D:\Hiverlab\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package\publisher.py -> D:\Hiverlab\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package
+[1.390s] byte-compiling D:\Hiverlab\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package\publisher.py to publisher.cpython-38.pyc
+[1.390s] running install_data
+[1.406s] running install_egg_info
+[1.406s] removing 'D:\Hiverlab\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package-0.0.0-py3.8.egg-info' (and everything under it)
+[1.406s] Copying ..\..\build\my_package\my_package.egg-info to D:\Hiverlab\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package-0.0.0-py3.8.egg-info
+[1.422s] running install_scripts
+[1.437s] Installing hmd_listener-script.py script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+[1.437s] Installing hmd_listener.exe script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+[1.437s] Installing hmd_talker-script.py script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+[1.453s] Installing hmd_talker.exe script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+[1.453s] Installing talker-script.py script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+[1.453s] Installing talker.exe script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+[1.453s] writing list of installed files to 'D:\Hiverlab\Omron_Robotics\dev_ws\build\my_package\install.log'
+[1.484s] Invoked command in 'D:\Hiverlab\Omron_Robotics\dev_ws\src\my_package' returned '0': PYTHONPATH=D:\Hiverlab\Omron_Robotics\dev_ws\install\Lib\site-packages;%PYTHONPATH% d:\hiverlab\omron_robotics\dev_ws\venv\scripts\python.exe setup.py egg_info --egg-base ..\..\build\my_package build --build-base D:\Hiverlab\Omron_Robotics\dev_ws\build\my_package\build install --prefix D:\Hiverlab\Omron_Robotics\dev_ws\install --record D:\Hiverlab\Omron_Robotics\dev_ws\build\my_package\install.log --single-version-externally-managed

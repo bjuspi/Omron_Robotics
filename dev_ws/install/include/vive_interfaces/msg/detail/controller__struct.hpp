@@ -43,11 +43,11 @@ struct Controller_
       this->yaw = 0.0f;
       this->pitch = 0.0f;
       this->roll = 0.0f;
-      this->grip = false;
-      this->menu = false;
-      this->trigger = false;
-      this->trackpad_pressed = false;
-      this->trackpad_touched = false;
+      this->grip = 0;
+      this->menu = 0;
+      this->trigger = 0.0f;
+      this->trackpad_pressed = 0;
+      this->trackpad_touched = 0;
       this->trackpad_x = 0.0f;
       this->trackpad_y = 0.0f;
     }
@@ -65,11 +65,11 @@ struct Controller_
       this->yaw = 0.0f;
       this->pitch = 0.0f;
       this->roll = 0.0f;
-      this->grip = false;
-      this->menu = false;
-      this->trigger = false;
-      this->trackpad_pressed = false;
-      this->trackpad_touched = false;
+      this->grip = 0;
+      this->menu = 0;
+      this->trigger = 0.0f;
+      this->trackpad_pressed = 0;
+      this->trackpad_touched = 0;
       this->trackpad_x = 0.0f;
       this->trackpad_y = 0.0f;
     }
@@ -95,19 +95,19 @@ struct Controller_
     float;
   _roll_type roll;
   using _grip_type =
-    bool;
+    int8_t;
   _grip_type grip;
   using _menu_type =
-    bool;
+    int8_t;
   _menu_type menu;
   using _trigger_type =
-    bool;
+    float;
   _trigger_type trigger;
   using _trackpad_pressed_type =
-    bool;
+    int8_t;
   _trackpad_pressed_type trackpad_pressed;
   using _trackpad_touched_type =
-    bool;
+    int8_t;
   _trackpad_touched_type trackpad_touched;
   using _trackpad_x_type =
     float;
@@ -154,31 +154,31 @@ struct Controller_
     return *this;
   }
   Type & set__grip(
-    const bool & _arg)
+    const int8_t & _arg)
   {
     this->grip = _arg;
     return *this;
   }
   Type & set__menu(
-    const bool & _arg)
+    const int8_t & _arg)
   {
     this->menu = _arg;
     return *this;
   }
   Type & set__trigger(
-    const bool & _arg)
+    const float & _arg)
   {
     this->trigger = _arg;
     return *this;
   }
   Type & set__trackpad_pressed(
-    const bool & _arg)
+    const int8_t & _arg)
   {
     this->trackpad_pressed = _arg;
     return *this;
   }
   Type & set__trackpad_touched(
-    const bool & _arg)
+    const int8_t & _arg)
   {
     this->trackpad_touched = _arg;
     return *this;

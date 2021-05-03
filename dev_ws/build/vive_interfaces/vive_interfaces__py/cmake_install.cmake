@@ -1,8 +1,8 @@
-# Install script for directory: D:/Omron_Robotics/dev_ws/build/vive_interfaces/vive_interfaces__py
+# Install script for directory: D:/Hiverlab/Omron_Robotics/dev_ws/build/vive_interfaces/vive_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "D:/Omron_Robotics/dev_ws/install")
+  set(CMAKE_INSTALL_PREFIX "D:/Hiverlab/Omron_Robotics/dev_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

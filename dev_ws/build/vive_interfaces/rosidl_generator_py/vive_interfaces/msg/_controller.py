@@ -75,11 +75,11 @@ class Controller(metaclass=Metaclass_Controller):
         'yaw': 'float',
         'pitch': 'float',
         'roll': 'float',
-        'grip': 'boolean',
-        'menu': 'boolean',
-        'trigger': 'boolean',
-        'trackpad_pressed': 'boolean',
-        'trackpad_touched': 'boolean',
+        'grip': 'int8',
+        'menu': 'int8',
+        'trigger': 'float',
+        'trackpad_pressed': 'int8',
+        'trackpad_touched': 'int8',
         'trackpad_x': 'float',
         'trackpad_y': 'float',
     }
@@ -91,11 +91,11 @@ class Controller(metaclass=Metaclass_Controller):
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int8'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int8'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int8'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int8'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
     )
@@ -110,11 +110,11 @@ class Controller(metaclass=Metaclass_Controller):
         self.yaw = kwargs.get('yaw', float())
         self.pitch = kwargs.get('pitch', float())
         self.roll = kwargs.get('roll', float())
-        self.grip = kwargs.get('grip', bool())
-        self.menu = kwargs.get('menu', bool())
-        self.trigger = kwargs.get('trigger', bool())
-        self.trackpad_pressed = kwargs.get('trackpad_pressed', bool())
-        self.trackpad_touched = kwargs.get('trackpad_touched', bool())
+        self.grip = kwargs.get('grip', int())
+        self.menu = kwargs.get('menu', int())
+        self.trigger = kwargs.get('trigger', float())
+        self.trackpad_pressed = kwargs.get('trackpad_pressed', int())
+        self.trackpad_touched = kwargs.get('trackpad_touched', int())
         self.trackpad_x = kwargs.get('trackpad_x', float())
         self.trackpad_y = kwargs.get('trackpad_y', float())
 
@@ -267,8 +267,10 @@ class Controller(metaclass=Metaclass_Controller):
     def grip(self, value):
         if __debug__:
             assert \
-                isinstance(value, bool), \
-                "The 'grip' field must be of type 'bool'"
+                isinstance(value, int), \
+                "The 'grip' field must be of type 'int'"
+            assert value >= -128 and value < 128, \
+                "The 'grip' field must be an integer in [-128, 127]"
         self._grip = value
 
     @property
@@ -280,8 +282,10 @@ class Controller(metaclass=Metaclass_Controller):
     def menu(self, value):
         if __debug__:
             assert \
-                isinstance(value, bool), \
-                "The 'menu' field must be of type 'bool'"
+                isinstance(value, int), \
+                "The 'menu' field must be of type 'int'"
+            assert value >= -128 and value < 128, \
+                "The 'menu' field must be an integer in [-128, 127]"
         self._menu = value
 
     @property
@@ -293,8 +297,8 @@ class Controller(metaclass=Metaclass_Controller):
     def trigger(self, value):
         if __debug__:
             assert \
-                isinstance(value, bool), \
-                "The 'trigger' field must be of type 'bool'"
+                isinstance(value, float), \
+                "The 'trigger' field must be of type 'float'"
         self._trigger = value
 
     @property
@@ -306,8 +310,10 @@ class Controller(metaclass=Metaclass_Controller):
     def trackpad_pressed(self, value):
         if __debug__:
             assert \
-                isinstance(value, bool), \
-                "The 'trackpad_pressed' field must be of type 'bool'"
+                isinstance(value, int), \
+                "The 'trackpad_pressed' field must be of type 'int'"
+            assert value >= -128 and value < 128, \
+                "The 'trackpad_pressed' field must be an integer in [-128, 127]"
         self._trackpad_pressed = value
 
     @property
@@ -319,8 +325,10 @@ class Controller(metaclass=Metaclass_Controller):
     def trackpad_touched(self, value):
         if __debug__:
             assert \
-                isinstance(value, bool), \
-                "The 'trackpad_touched' field must be of type 'bool'"
+                isinstance(value, int), \
+                "The 'trackpad_touched' field must be of type 'int'"
+            assert value >= -128 and value < 128, \
+                "The 'trackpad_touched' field must be an integer in [-128, 127]"
         self._trackpad_touched = value
 
     @property

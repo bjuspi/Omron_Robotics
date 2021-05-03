@@ -45,15 +45,15 @@ cdr_serialize(
   // Member: roll
   cdr << ros_message.roll;
   // Member: grip
-  cdr << (ros_message.grip ? true : false);
+  cdr << ros_message.grip;
   // Member: menu
-  cdr << (ros_message.menu ? true : false);
+  cdr << ros_message.menu;
   // Member: trigger
-  cdr << (ros_message.trigger ? true : false);
+  cdr << ros_message.trigger;
   // Member: trackpad_pressed
-  cdr << (ros_message.trackpad_pressed ? true : false);
+  cdr << ros_message.trackpad_pressed;
   // Member: trackpad_touched
-  cdr << (ros_message.trackpad_touched ? true : false);
+  cdr << ros_message.trackpad_touched;
   // Member: trackpad_x
   cdr << ros_message.trackpad_x;
   // Member: trackpad_y
@@ -86,39 +86,19 @@ cdr_deserialize(
   cdr >> ros_message.roll;
 
   // Member: grip
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.grip = tmp ? true : false;
-  }
+  cdr >> ros_message.grip;
 
   // Member: menu
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.menu = tmp ? true : false;
-  }
+  cdr >> ros_message.menu;
 
   // Member: trigger
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.trigger = tmp ? true : false;
-  }
+  cdr >> ros_message.trigger;
 
   // Member: trackpad_pressed
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.trackpad_pressed = tmp ? true : false;
-  }
+  cdr >> ros_message.trackpad_pressed;
 
   // Member: trackpad_touched
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.trackpad_touched = tmp ? true : false;
-  }
+  cdr >> ros_message.trackpad_touched;
 
   // Member: trackpad_x
   cdr >> ros_message.trackpad_x;
@@ -305,7 +285,8 @@ max_serialized_size_Controller(
   {
     size_t array_size = 1;
 
-    current_alignment += array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
   // Member: trackpad_pressed

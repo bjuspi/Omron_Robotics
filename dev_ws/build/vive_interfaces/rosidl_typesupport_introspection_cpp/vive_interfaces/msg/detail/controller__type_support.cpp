@@ -130,7 +130,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Controller_me
   },
   {
     "grip",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT8,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
@@ -145,7 +145,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Controller_me
   },
   {
     "menu",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT8,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
@@ -160,7 +160,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Controller_me
   },
   {
     "trigger",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
@@ -175,7 +175,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Controller_me
   },
   {
     "trackpad_pressed",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT8,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
@@ -190,7 +190,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Controller_me
   },
   {
     "trackpad_touched",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT8,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array

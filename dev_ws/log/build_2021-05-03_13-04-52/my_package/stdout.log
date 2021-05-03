@@ -1,0 +1,33 @@
+running egg_info
+writing ..\..\build\my_package\my_package.egg-info\PKG-INFO
+writing dependency_links to ..\..\build\my_package\my_package.egg-info\dependency_links.txt
+writing entry points to ..\..\build\my_package\my_package.egg-info\entry_points.txt
+writing requirements to ..\..\build\my_package\my_package.egg-info\requires.txt
+writing top-level names to ..\..\build\my_package\my_package.egg-info\top_level.txt
+reading manifest file '..\..\build\my_package\my_package.egg-info\SOURCES.txt'
+writing manifest file '..\..\build\my_package\my_package.egg-info\SOURCES.txt'
+running build
+running build_py
+copying my_package\publisher.py -> D:\Hiverlab\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package
+running install
+running install_lib
+copying D:\Hiverlab\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package\publisher.py -> D:\Hiverlab\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package
+byte-compiling D:\Hiverlab\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package\publisher.py to publisher.cpython-38.pyc
+running install_data
+running install_egg_info
+removing 'D:\Hiverlab\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ..\..\build\my_package\my_package.egg-info to D:\Hiverlab\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package-0.0.0-py3.8.egg-info
+running install_scripts
+Installing hmd_listener-script.py script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+Installing hmd_listener.exe script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+Installing hmd_talker-script.py script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+Installing hmd_talker.exe script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+Installing listener_controller1-script.py script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+Installing listener_controller1.exe script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+Installing listener_controller2-script.py script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+Installing listener_controller2.exe script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+Installing listener_hmd-script.py script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+Installing listener_hmd.exe script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+Installing talker-script.py script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+Installing talker.exe script to D:\Hiverlab\Omron_Robotics\dev_ws\install\lib\my_package
+writing list of installed files to 'D:\Hiverlab\Omron_Robotics\dev_ws\build\my_package\install.log'
