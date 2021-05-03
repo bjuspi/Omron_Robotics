@@ -1,5 +1,0 @@
-pip install catkin_pkg cryptography empy ifcfg lark-parser lxml netifaces numpy opencv-python pyparsing pyyaml setuptools
-
-pip install pydot PyQt5
-
-pip install colcon-common-extensions
