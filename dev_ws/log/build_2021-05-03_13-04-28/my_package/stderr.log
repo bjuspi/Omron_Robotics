@@ -1,5 +1,0 @@
-  File "D:\Hiverlab\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package\publisher.py", line 64
-    self.get_logger().info('Publishing")
-                                       ^
-SyntaxError: EOL while scanning string literal
-

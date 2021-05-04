@@ -1,0 +1,63 @@
+[0.563s] Invoking command in 'D:\Omron_Robotics\dev_ws\src\my_package': AMENT_PREFIX_PATH=D:\Omron_Robotics\dev_ws\install;%AMENT_PREFIX_PATH% CMAKE_PREFIX_PATH=D:\Omron_Robotics\dev_ws\install;%CMAKE_PREFIX_PATH% PYTHONPATH=D:\Omron_Robotics\dev_ws\install\Lib\site-packages;D:\Omron_Robotics\dev_ws\install\Lib\site-packages;%PYTHONPATH% Path=D:\Omron_Robotics\dev_ws\install\bin;%Path% d:\omron_robotics\dev_ws\venv\scripts\python.exe setup.py egg_info --egg-base ..\..\build\my_package build --build-base D:\Omron_Robotics\dev_ws\build\my_package\build install --prefix D:\Omron_Robotics\dev_ws\install --record D:\Omron_Robotics\dev_ws\build\my_package\install.log --single-version-externally-managed
+[0.813s] running egg_info
+[0.813s] creating ..\..\build\my_package\my_package.egg-info
+[0.813s] writing ..\..\build\my_package\my_package.egg-info\PKG-INFO
+[0.813s] writing dependency_links to ..\..\build\my_package\my_package.egg-info\dependency_links.txt
+[0.813s] writing entry points to ..\..\build\my_package\my_package.egg-info\entry_points.txt
+[0.813s] writing requirements to ..\..\build\my_package\my_package.egg-info\requires.txt
+[0.813s] writing top-level names to ..\..\build\my_package\my_package.egg-info\top_level.txt
+[0.813s] writing manifest file '..\..\build\my_package\my_package.egg-info\SOURCES.txt'
+[0.828s] reading manifest file '..\..\build\my_package\my_package.egg-info\SOURCES.txt'
+[0.828s] writing manifest file '..\..\build\my_package\my_package.egg-info\SOURCES.txt'
+[0.828s] running build
+[0.828s] running build_py
+[0.828s] creating D:\Omron_Robotics\dev_ws\build\my_package\build
+[0.828s] creating D:\Omron_Robotics\dev_ws\build\my_package\build\lib
+[0.828s] creating D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package
+[0.828s] copying my_package\hmd_publisher.py -> D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package
+[0.828s] copying my_package\hmd_subscriber.py -> D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package
+[0.828s] copying my_package\my_node.py -> D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package
+[0.844s] copying my_package\publisher.py -> D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package
+[0.844s] copying my_package\subscriber_controller1.py -> D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package
+[0.844s] copying my_package\subscriber_controller2.py -> D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package
+[0.844s] copying my_package\subscriber_hmd.py -> D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package
+[0.844s] copying my_package\__init__.py -> D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package
+[0.844s] running install
+[0.844s] running install_lib
+[0.844s] creating D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package
+[0.844s] copying D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package\hmd_publisher.py -> D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package
+[0.844s] copying D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package\hmd_subscriber.py -> D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package
+[0.844s] copying D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package\my_node.py -> D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package
+[0.844s] copying D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package\publisher.py -> D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package
+[0.844s] copying D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package\subscriber_controller1.py -> D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package
+[0.844s] copying D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package\subscriber_controller2.py -> D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package
+[0.844s] copying D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package\subscriber_hmd.py -> D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package
+[0.844s] copying D:\Omron_Robotics\dev_ws\build\my_package\build\lib\my_package\__init__.py -> D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package
+[0.844s] byte-compiling D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package\hmd_publisher.py to hmd_publisher.cpython-38.pyc
+[0.844s] byte-compiling D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package\hmd_subscriber.py to hmd_subscriber.cpython-38.pyc
+[0.844s] byte-compiling D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package\my_node.py to my_node.cpython-38.pyc
+[0.859s] byte-compiling D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package\publisher.py to publisher.cpython-38.pyc
+[0.859s] byte-compiling D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package\subscriber_controller1.py to subscriber_controller1.cpython-38.pyc
+[0.859s] byte-compiling D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package\subscriber_controller2.py to subscriber_controller2.cpython-38.pyc
+[0.859s] byte-compiling D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package\subscriber_hmd.py to subscriber_hmd.cpython-38.pyc
+[0.859s] byte-compiling D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package\__init__.py to __init__.cpython-38.pyc
+[0.859s] running install_data
+[0.859s] copying resource\my_package -> D:\Omron_Robotics\dev_ws\install\share\ament_index\resource_index\packages
+[0.859s] copying package.xml -> D:\Omron_Robotics\dev_ws\install\share\my_package
+[0.859s] running install_egg_info
+[0.859s] Copying ..\..\build\my_package\my_package.egg-info to D:\Omron_Robotics\dev_ws\install\Lib\site-packages\my_package-0.0.0-py3.8.egg-info
+[0.859s] running install_scripts
+[0.891s] Installing hmd_listener-script.py script to D:\Omron_Robotics\dev_ws\install\lib\my_package
+[0.891s] Installing hmd_listener.exe script to D:\Omron_Robotics\dev_ws\install\lib\my_package
+[0.891s] Installing hmd_talker-script.py script to D:\Omron_Robotics\dev_ws\install\lib\my_package
+[0.891s] Installing hmd_talker.exe script to D:\Omron_Robotics\dev_ws\install\lib\my_package
+[0.891s] Installing listener_controller1-script.py script to D:\Omron_Robotics\dev_ws\install\lib\my_package
+[0.891s] Installing listener_controller1.exe script to D:\Omron_Robotics\dev_ws\install\lib\my_package
+[0.891s] Installing listener_controller2-script.py script to D:\Omron_Robotics\dev_ws\install\lib\my_package
+[0.891s] Installing listener_controller2.exe script to D:\Omron_Robotics\dev_ws\install\lib\my_package
+[0.891s] Installing listener_hmd-script.py script to D:\Omron_Robotics\dev_ws\install\lib\my_package
+[0.891s] Installing listener_hmd.exe script to D:\Omron_Robotics\dev_ws\install\lib\my_package
+[0.891s] Installing talker-script.py script to D:\Omron_Robotics\dev_ws\install\lib\my_package
+[0.891s] Installing talker.exe script to D:\Omron_Robotics\dev_ws\install\lib\my_package
+[0.891s] writing list of installed files to 'D:\Omron_Robotics\dev_ws\build\my_package\install.log'
+[0.922s] Invoked command in 'D:\Omron_Robotics\dev_ws\src\my_package' returned '0': AMENT_PREFIX_PATH=D:\Omron_Robotics\dev_ws\install;%AMENT_PREFIX_PATH% CMAKE_PREFIX_PATH=D:\Omron_Robotics\dev_ws\install;%CMAKE_PREFIX_PATH% PYTHONPATH=D:\Omron_Robotics\dev_ws\install\Lib\site-packages;D:\Omron_Robotics\dev_ws\install\Lib\site-packages;%PYTHONPATH% Path=D:\Omron_Robotics\dev_ws\install\bin;%Path% d:\omron_robotics\dev_ws\venv\scripts\python.exe setup.py egg_info --egg-base ..\..\build\my_package build --build-base D:\Omron_Robotics\dev_ws\build\my_package\build install --prefix D:\Omron_Robotics\dev_ws\install --record D:\Omron_Robotics\dev_ws\build\my_package\install.log --single-version-externally-managed

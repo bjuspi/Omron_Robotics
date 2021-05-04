@@ -1,4 +1,4 @@
-#!d:\hiverlab\omron_robotics\dev_ws\venv\scripts\python.exe
+#!d:\omron_robotics\dev_ws\venv\scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'my-package==0.0.0','console_scripts','listener_controller1'
 __requires__ = 'my-package==0.0.0'
 import re

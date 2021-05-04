@@ -1,0 +1,213 @@
+[0.444s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['D:\\Omron_Robotics\\dev_ws\\venv\\Scripts\\colcon', 'build', '--merge-install'][0m
+[0.444s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x000001B9A2F88A90>>, merge_install=True, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=32, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x000001B9A2F88A90>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x000001B9A2F88F70>)[0m
+[0.461s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.461s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.461s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.461s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.461s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.461s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.461s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in 'D:\Omron_Robotics\dev_ws'
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\my_package) by extension 'ignore'
+[0.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\my_package) by extension 'ignore_ament_install'
+[0.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\my_package) by extensions ['colcon_pkg']
+[0.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\my_package) by extension 'colcon_pkg'
+[0.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\my_package) by extensions ['colcon_meta']
+[0.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\my_package) by extension 'colcon_meta'
+[0.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\my_package) by extensions ['ros']
+[0.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\my_package) by extension 'ros'
+[0.486s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\my_package' with type 'ros.ament_python' and name 'my_package'[0m
+[0.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\vive_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\vive_interfaces) by extension 'ignore'
+[0.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\vive_interfaces) by extension 'ignore_ament_install'
+[0.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\vive_interfaces) by extensions ['colcon_pkg']
+[0.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\vive_interfaces) by extension 'colcon_pkg'
+[0.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\vive_interfaces) by extensions ['colcon_meta']
+[0.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\vive_interfaces) by extension 'colcon_meta'
+[0.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\vive_interfaces) by extensions ['ros']
+[0.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\vive_interfaces) by extension 'ros'
+[0.488s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\vive_interfaces' with type 'ros.ament_cmake' and name 'vive_interfaces'[0m
+[0.488s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(venv) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(venv) by extension 'ignore'
+[0.488s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(venv) ignored
+[0.488s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.488s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.488s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.488s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.489s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.530s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vive_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.530s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vive_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.530s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vive_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.530s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vive_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.530s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vive_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.531s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vive_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.531s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vive_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.531s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vive_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.531s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'vive_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.531s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'vive_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': 'D:\\Omron_Robotics\\dev_ws\\build\\vive_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'D:\\Omron_Robotics\\dev_ws\\install', 'merge_install': True, 'path': 'D:\\Omron_Robotics\\dev_ws\\src\\vive_interfaces', 'symlink_install': False, 'test_result_base': None}[0m
+[0.539s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.539s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.539s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.539s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.539s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.539s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.539s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.539s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.539s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.539s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': 'D:\\Omron_Robotics\\dev_ws\\build\\my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'D:\\Omron_Robotics\\dev_ws\\install', 'merge_install': True, 'path': 'D:\\Omron_Robotics\\dev_ws\\src\\my_package', 'symlink_install': False, 'test_result_base': None}[0m
+[0.541s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.555s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.555s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in 'D:\Omron_Robotics\dev_ws\src\vive_interfaces' with build type 'ament_cmake'
+[0.555s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in 'D:\Omron_Robotics\dev_ws\src\vive_interfaces'
+[0.560s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.sh': Not used on Windows systems
+[0.560s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.604s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'D:\Omron_Robotics\dev_ws\build\vive_interfaces': C:\Program Files\CMake\bin\cmake.EXE D:\Omron_Robotics\dev_ws\src\vive_interfaces -DCMAKE_INSTALL_PREFIX=D:\Omron_Robotics\dev_ws\install[0m
+[2.741s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'D:\Omron_Robotics\dev_ws\build\vive_interfaces' returned '0': C:\Program Files\CMake\bin\cmake.EXE D:\Omron_Robotics\dev_ws\src\vive_interfaces -DCMAKE_INSTALL_PREFIX=D:\Omron_Robotics\dev_ws\install[0m
+[2.744s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'D:\Omron_Robotics\dev_ws\build\vive_interfaces': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build D:\Omron_Robotics\dev_ws\build\vive_interfaces --config Release[0m
+[5.373s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'D:\Omron_Robotics\dev_ws\build\vive_interfaces' returned '0': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build D:\Omron_Robotics\dev_ws\build\vive_interfaces --config Release[0m
+[5.396s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'D:\Omron_Robotics\dev_ws\build\vive_interfaces': C:\Program Files\CMake\bin\cmake.EXE --install D:\Omron_Robotics\dev_ws\build\vive_interfaces --config Release[0m
+[5.515s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(vive_interfaces)
+[5.517s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'D:\Omron_Robotics\dev_ws\build\vive_interfaces' returned '0': C:\Program Files\CMake\bin\cmake.EXE --install D:\Omron_Robotics\dev_ws\build\vive_interfaces --config Release[0m
+[5.527s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install' for CMake module files
+[5.529s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install' for CMake config files
+[5.531s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('vive_interfaces', 'cmake_prefix_path')
+[5.535s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\cmake_prefix_path.ps1'
+[5.536s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\cmake_prefix_path.bat'
+[5.537s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\cmake_prefix_path.dsv'
+[5.538s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\bin'
+[5.538s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('vive_interfaces', 'path_dll')
+[5.541s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\path_dll.ps1'
+[5.542s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\path_dll.bat'
+[5.542s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\path_dll.dsv'
+[5.543s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\bin'
+[5.543s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('vive_interfaces', 'path')
+[5.547s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\path.ps1'
+[5.547s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\path.bat'
+[5.548s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\path.dsv'
+[5.548s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\Scripts'
+[5.548s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\lib\pkgconfig\vive_interfaces.pc'
+[5.548s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\Lib\site-packages'
+[5.549s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('vive_interfaces', 'pythonpath')
+[5.552s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\pythonpath.ps1'
+[5.552s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\pythonpath.bat'
+[5.553s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\pythonpath.dsv'
+[5.557s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\package.ps1'
+[5.559s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\package.bat'
+[5.560s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\package.dsv'
+[5.560s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(D:\Omron_Robotics\dev_ws\install\share\colcon-core\packages\vive_interfaces)
+[5.564s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(vive_interfaces)
+[5.570s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install' for CMake module files
+[5.572s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install' for CMake config files
+[5.574s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('vive_interfaces', 'cmake_prefix_path')
+[5.577s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\cmake_prefix_path.ps1'
+[5.578s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\cmake_prefix_path.bat'
+[5.579s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\cmake_prefix_path.dsv'
+[5.579s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\bin'
+[5.580s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('vive_interfaces', 'path_dll')
+[5.583s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\path_dll.ps1'
+[5.584s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\path_dll.bat'
+[5.584s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\path_dll.dsv'
+[5.585s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\bin'
+[5.585s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('vive_interfaces', 'path')
+[5.588s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\path.ps1'
+[5.589s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\path.bat'
+[5.590s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\path.dsv'
+[5.590s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\Scripts'
+[5.590s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\lib\pkgconfig\vive_interfaces.pc'
+[5.590s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\Lib\site-packages'
+[5.590s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('vive_interfaces', 'pythonpath')
+[5.594s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\pythonpath.ps1'
+[5.594s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\pythonpath.bat'
+[5.595s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\hook\pythonpath.dsv'
+[5.599s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\package.ps1'
+[5.600s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\package.bat'
+[5.601s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'D:\Omron_Robotics\dev_ws\install\share\vive_interfaces\package.dsv'
+[5.601s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(D:\Omron_Robotics\dev_ws\install\share\colcon-core\packages\vive_interfaces)
+[5.602s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'D:\Omron_Robotics\dev_ws\src\my_package' with build type 'ament_python'
+[5.602s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_package', 'ament_prefix_path')
+[5.606s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\ament_prefix_path.ps1'
+[5.607s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\ament_prefix_path.bat'
+[5.608s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\ament_prefix_path.dsv'
+[5.612s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.008s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'D:\Omron_Robotics\dev_ws\src\my_package'
+[6.012s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.142s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'D:\Omron_Robotics\dev_ws\src\my_package': PYTHONPATH=D:\Omron_Robotics\dev_ws\install\Lib\site-packages;%PYTHONPATH% Path=D:\Omron_Robotics\dev_ws\install\bin;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\\Extensions\Microsoft\IntelliCode\CLI;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\VC\VCPackages;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Team Tools\Performance Tools\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\vs2019\\x64;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\vs2019\;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86;C:\Program Files (x86)\Windows Kits\10\bin\x86;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\;C:\Program Files\ros2foxy\ros2-windows\opt\yaml_cpp_vendor\bin;C:\Program Files\ros2foxy\ros2-windows\opt\rviz_ogre_vendor\bin;C:\Program Files\ros2foxy\ros2-windows\opt\rviz_assimp_vendor\bin;C:\Program Files\ros2foxy\ros2-windows\opt\libcurl_vendor\bin;C:\Program Files\ros2foxy\ros2-windows\Scripts;C:\Program Files\ros2foxy\ros2-windows\bin;D:\Omron_Robotics\dev_ws\venv\Scripts;C:\Python38\Scripts\;C:\Python38\;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Insta360Stitcher\tools\proStitcher;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Autodesk\Backburner\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSL-Win64\bin\;C:\opencv\x64\vc16\bin;C:\Program Files\CMake\bin;C:\ProgramData\chocolatey\lib\cunit\lib;C:\ProgramData\chocolatey\lib\tinyxml2\lib;C:\ProgramData\chocolatey\lib\log4cxx\lib;C:\ProgramData\chocolatey\lib\bullet\lib;C:\Program Files\Graphviz\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Autodesk\Maya2020\bin;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja d:\omron_robotics\dev_ws\venv\scripts\python.exe setup.py egg_info --egg-base ..\..\build\my_package build --build-base D:\Omron_Robotics\dev_ws\build\my_package\build install --prefix D:\Omron_Robotics\dev_ws\install --record D:\Omron_Robotics\dev_ws\build\my_package\install.log --single-version-externally-managed[0m
+[6.485s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install' for CMake module files
+[6.486s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'D:\Omron_Robotics\dev_ws\src\my_package' returned '0': PYTHONPATH=D:\Omron_Robotics\dev_ws\install\Lib\site-packages;%PYTHONPATH% Path=D:\Omron_Robotics\dev_ws\install\bin;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\\Extensions\Microsoft\IntelliCode\CLI;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\VC\VCPackages;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Team Tools\Performance Tools\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\vs2019\\x64;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\vs2019\;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86;C:\Program Files (x86)\Windows Kits\10\bin\x86;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\;C:\Program Files\ros2foxy\ros2-windows\opt\yaml_cpp_vendor\bin;C:\Program Files\ros2foxy\ros2-windows\opt\rviz_ogre_vendor\bin;C:\Program Files\ros2foxy\ros2-windows\opt\rviz_assimp_vendor\bin;C:\Program Files\ros2foxy\ros2-windows\opt\libcurl_vendor\bin;C:\Program Files\ros2foxy\ros2-windows\Scripts;C:\Program Files\ros2foxy\ros2-windows\bin;D:\Omron_Robotics\dev_ws\venv\Scripts;C:\Python38\Scripts\;C:\Python38\;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Insta360Stitcher\tools\proStitcher;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Autodesk\Backburner\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSL-Win64\bin\;C:\opencv\x64\vc16\bin;C:\Program Files\CMake\bin;C:\ProgramData\chocolatey\lib\cunit\lib;C:\ProgramData\chocolatey\lib\tinyxml2\lib;C:\ProgramData\chocolatey\lib\log4cxx\lib;C:\ProgramData\chocolatey\lib\bullet\lib;C:\Program Files\Graphviz\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Autodesk\Maya2020\bin;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja d:\omron_robotics\dev_ws\venv\scripts\python.exe setup.py egg_info --egg-base ..\..\build\my_package build --build-base D:\Omron_Robotics\dev_ws\build\my_package\build install --prefix D:\Omron_Robotics\dev_ws\install --record D:\Omron_Robotics\dev_ws\build\my_package\install.log --single-version-externally-managed[0m
+[6.487s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install' for CMake config files
+[6.489s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_package', 'cmake_prefix_path')
+[6.493s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\cmake_prefix_path.ps1'
+[6.494s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\cmake_prefix_path.bat'
+[6.494s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\cmake_prefix_path.dsv'
+[6.495s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\bin'
+[6.495s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_package', 'path_dll')
+[6.499s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\path_dll.ps1'
+[6.499s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\path_dll.bat'
+[6.500s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\path_dll.dsv'
+[6.500s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\bin'
+[6.500s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_package', 'path')
+[6.504s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\path.ps1'
+[6.505s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\path.bat'
+[6.505s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\path.dsv'
+[6.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\Scripts'
+[6.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\lib\pkgconfig\my_package.pc'
+[6.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'D:\Omron_Robotics\dev_ws\install\Lib\site-packages'
+[6.506s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_package', 'pythonpath')
+[6.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\pythonpath.ps1'
+[6.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\pythonpath.bat'
+[6.511s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'D:\Omron_Robotics\dev_ws\install\share\my_package\hook\pythonpath.dsv'
+[6.511s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(my_package)
+[6.515s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'D:\Omron_Robotics\dev_ws\install\share\my_package\package.ps1'
+[6.516s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'D:\Omron_Robotics\dev_ws\install\share\my_package\package.bat'
+[6.517s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'D:\Omron_Robotics\dev_ws\install\share\my_package\package.dsv'
+[6.517s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(D:\Omron_Robotics\dev_ws\install\share\colcon-core\packages\my_package)
+[6.518s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[6.518s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[6.526s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[6.526s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[6.526s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.526s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'win32'
+[11.565s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[11.569s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'D:\Omron_Robotics\dev_ws\install\local_setup.ps1'
+[11.570s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'D:\Omron_Robotics\dev_ws\install\_local_setup_util_ps1.py'
+[11.572s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'D:\Omron_Robotics\dev_ws\install\setup.ps1'
+[11.578s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'D:\Omron_Robotics\dev_ws\install\local_setup.bat'
+[11.578s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'D:\Omron_Robotics\dev_ws\install\_local_setup_util_bat.py'
+[11.579s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'D:\Omron_Robotics\dev_ws\install\setup.bat'

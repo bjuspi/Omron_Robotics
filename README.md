@@ -14,7 +14,7 @@ Hiverlab Omron Robotics R & D
 
 ## RQt dependencies
 
-`pip install -U pydot PyQt5`
+`pip install pydot PyQt5`
 
 ## Colcon dependencies
 

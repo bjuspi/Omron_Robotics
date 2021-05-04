@@ -1,0 +1,238 @@
+[0.047s] Invoking command in 'D:\Omron_Robotics\dev_ws\build\vive_interfaces': C:\Program Files\CMake\bin\cmake.EXE D:\Omron_Robotics\dev_ws\src\vive_interfaces -DCMAKE_INSTALL_PREFIX=D:\Omron_Robotics\dev_ws\install -G Visual Studio 16 2019
+[1.219s] -- The C compiler identification is MSVC 19.28.29336.0
+[1.938s] -- The CXX compiler identification is MSVC 19.28.29336.0
+[1.969s] -- Detecting C compiler ABI info
+[2.625s] -- Detecting C compiler ABI info - done
+[2.641s] -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x64/cl.exe - skipped
+[2.641s] -- Detecting C compile features
+[2.641s] -- Detecting C compile features - done
+[2.641s] -- Detecting CXX compiler ABI info
+[3.313s] -- Detecting CXX compiler ABI info - done
+[3.313s] -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x64/cl.exe - skipped
+[3.313s] -- Detecting CXX compile features
+[3.313s] -- Detecting CXX compile features - done
+[3.329s] -- Found ament_cmake: 0.9.8 (C:/Program Files/ros2foxy/ros2-windows/share/ament_cmake/cmake)
+[3.469s] -- Found PythonInterp: D:/Omron_Robotics/dev_ws/venv/Scripts/python.exe (found suitable version "3.8.3", minimum required is "3") 
+[3.469s] -- Using PYTHON_EXECUTABLE: D:/Omron_Robotics/dev_ws/venv/Scripts/python.exe
+[3.797s] -- Found ament_lint_auto: 0.9.6 (C:/Program Files/ros2foxy/ros2-windows/share/ament_lint_auto/cmake)
+[3.969s] -- Found rosidl_default_generators: 1.0.0 (C:/Program Files/ros2foxy/ros2-windows/share/rosidl_default_generators/cmake)
+[3.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.016s] -- Found rosidl_adapter: 1.2.0 (C:/Program Files/ros2foxy/ros2-windows/share/rosidl_adapter/cmake)
+[4.422s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+[4.485s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+[4.797s] -- Found OpenSSL: optimized;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MD.lib;debug;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MDd.lib (found version "1.1.1k")  
+[4.860s] -- Found FastRTPS: C:/Program Files/ros2foxy/ros2-windows/include  
+[4.954s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.063s] -- Found PythonInterp: D:/Omron_Robotics/dev_ws/venv/Scripts/python.exe (found version "3.8.3") 
+[5.172s] -- Found ament_cmake_ros: 0.9.0 (C:/Program Files/ros2foxy/ros2-windows/share/ament_cmake_ros/cmake)
+[5.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.360s] -- Found PythonInterp: D:/Omron_Robotics/dev_ws/venv/Scripts/python.exe (found suitable version "3.8.3", minimum required is "3.5") 
+[5.360s] -- Found python_cmake_module: 0.8.0 (C:/Program Files/ros2foxy/ros2-windows/share/python_cmake_module/cmake)
+[5.454s] -- Found PythonLibs: C:/Python38/libs/python38.lib (found suitable version "3.8.3", minimum required is "3.5") 
+[5.454s] -- Using PYTHON_EXECUTABLE: D:/Omron_Robotics/dev_ws/venv/Scripts/python.exe
+[5.454s] -- Using PYTHON_INCLUDE_DIRS: C:/Python38/include
+[5.454s] -- Using PYTHON_LIBRARIES: C:/Python38/libs/python38.lib
+[5.485s] -- Found PythonExtra: .pyd  
+[5.704s] -- Using numpy include directory: D:\Omron_Robotics\dev_ws\venv\lib\site-packages\numpy\core\include
+[5.719s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.750s] -- Added test 'lint_cmake' to check CMake code style
+[5.766s] -- Added test 'xmllint' to check XML markup files
+[5.860s] -- Configuring done
+[6.313s] -- Generating done
+[6.329s] -- Build files have been written to: D:/Omron_Robotics/dev_ws/build/vive_interfaces
+[6.329s] Invoked command in 'D:\Omron_Robotics\dev_ws\build\vive_interfaces' returned '0': C:\Program Files\CMake\bin\cmake.EXE D:\Omron_Robotics\dev_ws\src\vive_interfaces -DCMAKE_INSTALL_PREFIX=D:\Omron_Robotics\dev_ws\install -G Visual Studio 16 2019
+[6.329s] Invoking command in 'D:\Omron_Robotics\dev_ws\build\vive_interfaces': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build D:\Omron_Robotics\dev_ws\build\vive_interfaces --config Release
+[6.422s] Microsoft (R) Build Engine version 16.8.3+39993bd9d for .NET Framework
+[6.422s] Copyright (C) Microsoft Corporation. All rights reserved.
+[6.422s] 
+[6.735s]   Checking Build System
+[6.922s]   Generating C++ code for ROS interfaces
+[7.250s]   Building Custom Rule D:/Omron_Robotics/dev_ws/src/vive_interfaces/CMakeLists.txt
+[7.360s]   Generating C code for ROS interfaces
+[7.688s]   Building Custom Rule D:/Omron_Robotics/dev_ws/src/vive_interfaces/CMakeLists.txt
+[7.844s]   hmd__functions.c
+[7.860s]   controller__functions.c
+[7.985s]      Creating library D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__rosidl_generator_c.lib and object D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__rosidl_generator_c.exp
+[8.094s]   vive_interfaces__rosidl_generator_c.vcxproj -> D:\Omron_Robotics\dev_ws\build\vive_interfaces\Release\vive_interfaces__rosidl_generator_c.dll
+[8.157s]   Generating C type support dispatch for ROS interfaces
+[8.422s]   Building Custom Rule D:/Omron_Robotics/dev_ws/src/vive_interfaces/CMakeLists.txt
+[8.563s]   hmd__type_support.cpp
+[8.563s]   controller__type_support.cpp
+[8.688s]      Creating library D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__rosidl_typesupport_c.lib and object D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__rosidl_typesupport_c.exp
+[8.844s]   vive_interfaces__rosidl_typesupport_c.vcxproj -> D:\Omron_Robotics\dev_ws\build\vive_interfaces\Release\vive_interfaces__rosidl_typesupport_c.dll
+[8.922s]   Generating C++ type support dispatch for ROS interfaces
+[9.204s]   Building Custom Rule D:/Omron_Robotics/dev_ws/src/vive_interfaces/CMakeLists.txt
+[9.329s]   hmd__type_support.cpp
+[9.329s]   controller__type_support.cpp
+[9.579s]      Creating library D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__rosidl_typesupport_cpp.lib and object D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__rosidl_typesupport_cpp.exp
+[9.672s]   vive_interfaces__rosidl_typesupport_cpp.vcxproj -> D:\Omron_Robotics\dev_ws\build\vive_interfaces\Release\vive_interfaces__rosidl_typesupport_cpp.dll
+[9.766s]   Generating C++ type support for eProsima Fast-RTPS
+[10.094s]   Building Custom Rule D:/Omron_Robotics/dev_ws/src/vive_interfaces/CMakeLists.txt
+[10.219s]   hmd__type_support.cpp
+[10.219s]   controller__type_support.cpp
+[10.610s]      Creating library D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__rosidl_typesupport_fastrtps_cpp.lib and object D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__rosidl_typesupport_fastrtps_cpp.exp
+[10.719s]   vive_interfaces__rosidl_typesupport_fastrtps_cpp.vcxproj -> D:\Omron_Robotics\dev_ws\build\vive_interfaces\Release\vive_interfaces__rosidl_typesupport_fastrtps_cpp.dll
+[10.766s]   Generating C type support for eProsima Fast-RTPS
+[11.079s]   Building Custom Rule D:/Omron_Robotics/dev_ws/src/vive_interfaces/CMakeLists.txt
+[11.219s]   hmd__type_support_c.cpp
+[11.219s]   controller__type_support_c.cpp
+[11.610s]      Creating library D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__rosidl_typesupport_fastrtps_c.lib and object D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__rosidl_typesupport_fastrtps_c.exp
+[11.704s]   vive_interfaces__rosidl_typesupport_fastrtps_c.vcxproj -> D:\Omron_Robotics\dev_ws\build\vive_interfaces\Release\vive_interfaces__rosidl_typesupport_fastrtps_c.dll
+[11.782s]   Generating C introspection for ROS interfaces
+[12.079s]   Building Custom Rule D:/Omron_Robotics/dev_ws/src/vive_interfaces/CMakeLists.txt
+[12.219s]   hmd__type_support.c
+[12.219s]   controller__type_support.c
+[12.329s]      Creating library D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__rosidl_typesupport_introspection_c.lib and object D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__rosidl_typesupport_introspection_c.exp
+[12.422s]   vive_interfaces__rosidl_typesupport_introspection_c.vcxproj -> D:\Omron_Robotics\dev_ws\build\vive_interfaces\Release\vive_interfaces__rosidl_typesupport_introspection_c.dll
+[12.500s]   Generating C++ introspection for ROS interfaces
+[12.797s]   Building Custom Rule D:/Omron_Robotics/dev_ws/src/vive_interfaces/CMakeLists.txt
+[12.938s]   hmd__type_support.cpp
+[12.938s]   controller__type_support.cpp
+[13.204s]      Creating library D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__rosidl_typesupport_introspection_cpp.lib and object D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__rosidl_typesupport_introspection_cpp.exp
+[13.297s]   vive_interfaces__rosidl_typesupport_introspection_cpp.vcxproj -> D:\Omron_Robotics\dev_ws\build\vive_interfaces\Release\vive_interfaces__rosidl_typesupport_introspection_cpp.dll
+[13.391s]   Building Custom Rule D:/Omron_Robotics/dev_ws/src/vive_interfaces/CMakeLists.txt
+[13.532s]   Generating Python code for ROS interfaces
+[14.063s]   Building Custom Rule D:/Omron_Robotics/dev_ws/build/vive_interfaces/vive_interfaces__py/CMakeLists.txt
+[14.141s]   Building Custom Rule D:/Omron_Robotics/dev_ws/src/vive_interfaces/CMakeLists.txt
+[14.266s]   _hmd_s.c
+[14.266s]   _controller_s.c
+[14.454s]      Creating library D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__python.lib and object D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces__python.exp
+[14.563s]   vive_interfaces__python.vcxproj -> D:\Omron_Robotics\dev_ws\build\vive_interfaces\rosidl_generator_py\vive_interfaces\vive_interfaces__python.dll
+[14.641s]   Building Custom Rule D:/Omron_Robotics/dev_ws/src/vive_interfaces/CMakeLists.txt
+[14.750s]   _vive_interfaces_s.ep.rosidl_typesupport_c.c
+[14.922s]      Creating library D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces_s__rosidl_typesupport_c.lib and object D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces_s__rosidl_typesupport_c.exp
+[15.016s]   vive_interfaces__rosidl_typesupport_c__pyext.vcxproj -> D:\Omron_Robotics\dev_ws\build\vive_interfaces\rosidl_generator_py\vive_interfaces\vive_interfaces_s__rosidl_typesupport_c.pyd
+[15.110s]   Building Custom Rule D:/Omron_Robotics/dev_ws/src/vive_interfaces/CMakeLists.txt
+[15.219s]   _vive_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.375s]      Creating library D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces_s__rosidl_typesupport_fastrtps_c.lib and object D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces_s__rosidl_typesupport_fastrtps_c.exp
+[15.469s]   vive_interfaces__rosidl_typesupport_fastrtps_c__pyext.vcxproj -> D:\Omron_Robotics\dev_ws\build\vive_interfaces\rosidl_generator_py\vive_interfaces\vive_interfaces_s__rosidl_typesupport_fastrtps_c.pyd
+[15.547s]   Building Custom Rule D:/Omron_Robotics/dev_ws/src/vive_interfaces/CMakeLists.txt
+[15.672s]   _vive_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[15.829s]      Creating library D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces_s__rosidl_typesupport_introspection_c.lib and object D:/Omron_Robotics/dev_ws/build/vive_interfaces/Release/vive_interfaces_s__rosidl_typesupport_introspection_c.exp
+[15.922s]   vive_interfaces__rosidl_typesupport_introspection_c__pyext.vcxproj -> D:\Omron_Robotics\dev_ws\build\vive_interfaces\rosidl_generator_py\vive_interfaces\vive_interfaces_s__rosidl_typesupport_introspection_c.pyd
+[15.969s]   Building Custom Rule D:/Omron_Robotics/dev_ws/src/vive_interfaces/CMakeLists.txt
+[16.047s] Invoked command in 'D:\Omron_Robotics\dev_ws\build\vive_interfaces' returned '0': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build D:\Omron_Robotics\dev_ws\build\vive_interfaces --config Release
+[16.063s] Invoking command in 'D:\Omron_Robotics\dev_ws\build\vive_interfaces': C:\Program Files\CMake\bin\cmake.EXE --install D:\Omron_Robotics\dev_ws\build\vive_interfaces --config Release
+[16.079s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/ament_index/resource_index/rosidl_interfaces/vive_interfaces
+[16.079s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces
+[16.079s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg
+[16.079s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/controller.h
+[16.079s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail
+[16.079s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/controller__functions.c
+[16.094s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/controller__functions.h
+[16.094s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/controller__struct.h
+[16.094s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/controller__type_support.h
+[16.094s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/hmd__functions.c
+[16.094s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/hmd__functions.h
+[16.094s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/hmd__struct.h
+[16.094s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/hmd__type_support.h
+[16.094s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/hmd.h
+[16.094s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/rosidl_generator_c__visibility_control.h
+[16.094s] -- Installing: D:/Omron_Robotics/dev_ws/install/lib/vive_interfaces__rosidl_generator_c.lib
+[16.094s] -- Installing: D:/Omron_Robotics/dev_ws/install/bin/vive_interfaces__rosidl_generator_c.dll
+[16.094s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces
+[16.094s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg
+[16.094s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail
+[16.094s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/controller__rosidl_typesupport_fastrtps_c.h
+[16.110s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/hmd__rosidl_typesupport_fastrtps_c.h
+[16.110s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.110s] -- Installing: D:/Omron_Robotics/dev_ws/install/lib/vive_interfaces__rosidl_typesupport_fastrtps_c.lib
+[16.110s] -- Installing: D:/Omron_Robotics/dev_ws/install/bin/vive_interfaces__rosidl_typesupport_fastrtps_c.dll
+[16.110s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces
+[16.110s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg
+[16.110s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail
+[16.110s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp
+[16.110s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/dds_fastrtps
+[16.110s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/hmd__rosidl_typesupport_fastrtps_cpp.hpp
+[16.110s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.110s] -- Installing: D:/Omron_Robotics/dev_ws/install/lib/vive_interfaces__rosidl_typesupport_fastrtps_cpp.lib
+[16.125s] -- Installing: D:/Omron_Robotics/dev_ws/install/bin/vive_interfaces__rosidl_typesupport_fastrtps_cpp.dll
+[16.125s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces
+[16.125s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg
+[16.125s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail
+[16.125s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/controller__rosidl_typesupport_introspection_c.h
+[16.125s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/controller__type_support.c
+[16.125s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/hmd__rosidl_typesupport_introspection_c.h
+[16.125s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/hmd__type_support.c
+[16.125s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.125s] -- Installing: D:/Omron_Robotics/dev_ws/install/lib/vive_interfaces__rosidl_typesupport_introspection_c.lib
+[16.125s] -- Installing: D:/Omron_Robotics/dev_ws/install/bin/vive_interfaces__rosidl_typesupport_introspection_c.dll
+[16.141s] -- Installing: D:/Omron_Robotics/dev_ws/install/lib/vive_interfaces__rosidl_typesupport_c.lib
+[16.141s] -- Installing: D:/Omron_Robotics/dev_ws/install/bin/vive_interfaces__rosidl_typesupport_c.dll
+[16.141s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces
+[16.141s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg
+[16.141s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/controller.hpp
+[16.141s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail
+[16.141s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/controller__builder.hpp
+[16.141s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/controller__struct.hpp
+[16.141s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/controller__traits.hpp
+[16.141s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/hmd__builder.hpp
+[16.141s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/hmd__struct.hpp
+[16.141s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/hmd__traits.hpp
+[16.141s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/hmd.hpp
+[16.141s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces
+[16.141s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg
+[16.141s] -- Up-to-date: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail
+[16.141s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/controller__rosidl_typesupport_introspection_cpp.hpp
+[16.157s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/controller__type_support.cpp
+[16.157s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/hmd__rosidl_typesupport_introspection_cpp.hpp
+[16.157s] -- Installing: D:/Omron_Robotics/dev_ws/install/include/vive_interfaces/msg/detail/hmd__type_support.cpp
+[16.157s] -- Installing: D:/Omron_Robotics/dev_ws/install/lib/vive_interfaces__rosidl_typesupport_introspection_cpp.lib
+[16.157s] -- Installing: D:/Omron_Robotics/dev_ws/install/bin/vive_interfaces__rosidl_typesupport_introspection_cpp.dll
+[16.157s] -- Installing: D:/Omron_Robotics/dev_ws/install/lib/vive_interfaces__rosidl_typesupport_cpp.lib
+[16.157s] -- Installing: D:/Omron_Robotics/dev_ws/install/bin/vive_interfaces__rosidl_typesupport_cpp.dll
+[16.172s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/environment/pythonpath.bat
+[16.172s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/environment/pythonpath.dsv
+[16.172s] -- Installing: D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/__init__.py
+[16.219s] Compiling 'D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/__init__.py'...
+[16.235s] -- Installing: D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/msg
+[16.235s] -- Installing: D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/msg/_controller.py
+[16.235s] -- Installing: D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/msg/_controller_s.c
+[16.235s] -- Installing: D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/msg/_hmd.py
+[16.235s] -- Installing: D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/msg/_hmd_s.c
+[16.235s] -- Installing: D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/msg/__init__.py
+[16.235s] -- Installing: D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/vive_interfaces_s__rosidl_typesupport_fastrtps_c.lib
+[16.250s] -- Installing: D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/vive_interfaces_s__rosidl_typesupport_fastrtps_c.pyd
+[16.250s] -- Installing: D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/vive_interfaces_s__rosidl_typesupport_introspection_c.lib
+[16.250s] -- Installing: D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/vive_interfaces_s__rosidl_typesupport_introspection_c.pyd
+[16.250s] -- Installing: D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/vive_interfaces_s__rosidl_typesupport_c.lib
+[16.250s] -- Installing: D:/Omron_Robotics/dev_ws/install/Lib/site-packages/vive_interfaces/vive_interfaces_s__rosidl_typesupport_c.pyd
+[16.266s] -- Installing: D:/Omron_Robotics/dev_ws/install/lib/vive_interfaces__python.lib
+[16.266s] -- Installing: D:/Omron_Robotics/dev_ws/install/bin/vive_interfaces__python.dll
+[16.266s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/msg/Hmd.idl
+[16.266s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/msg/Controller.idl
+[16.266s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/msg/Hmd.msg
+[16.266s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/msg/Controller.msg
+[16.266s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/ament_index/resource_index/package_run_dependencies/vive_interfaces
+[16.266s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/ament_index/resource_index/parent_prefix_path/vive_interfaces
+[16.266s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/environment/ament_prefix_path.bat
+[16.266s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/environment/ament_prefix_path.dsv
+[16.266s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/environment/path.bat
+[16.266s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/environment/path.dsv
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/local_setup.bat
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/local_setup.dsv
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/package.dsv
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/ament_index/resource_index/packages/vive_interfaces
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/vive_interfaces__rosidl_generator_cExport.cmake
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/vive_interfaces__rosidl_generator_cExport-release.cmake
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/vive_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/vive_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/vive_interfaces__rosidl_typesupport_cExport.cmake
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/vive_interfaces__rosidl_typesupport_cExport-release.cmake
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/vive_interfaces__rosidl_generator_cppExport.cmake
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/vive_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/vive_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/vive_interfaces__rosidl_typesupport_cppExport.cmake
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/vive_interfaces__rosidl_typesupport_cppExport-release.cmake
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/rosidl_cmake-extras.cmake
+[16.282s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.297s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.297s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.297s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.297s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.297s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.297s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/vive_interfacesConfig.cmake
+[16.297s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/cmake/vive_interfacesConfig-version.cmake
+[16.297s] -- Installing: D:/Omron_Robotics/dev_ws/install/share/vive_interfaces/package.xml
+[16.297s] Invoked command in 'D:\Omron_Robotics\dev_ws\build\vive_interfaces' returned '0': C:\Program Files\CMake\bin\cmake.EXE --install D:\Omron_Robotics\dev_ws\build\vive_interfaces --config Release

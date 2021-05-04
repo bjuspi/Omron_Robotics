@@ -4,13 +4,18 @@ import sys
 import openvr
 import math
 import json
-import multiprocessing
+import threading
+from signal import signal, SIGINT
 
 from functools import lru_cache
 
 from rclpy.node import Node
 from std_msgs.msg import String
 from vive_interfaces.msg import Hmd, Controller
+
+def handler(signal_received, frame):
+    print('SIGINT or CTRL-C detected. Exiting gracefully')
+    sys.exit(0)
 
 # Function to print out text but instead of starting a new line it will overwrite the existing line
 def update_text(txt):
@@ -540,33 +545,33 @@ def main(args=None):
 
     minimal_publisher = MinimalPublisher()
 
-    processes = []
+    threads = []
     for device_type in track:
         for device in devices[device_type]:
             if device_type == "hmd":
-                p = multiprocessing.Process(
+                t = threading.Thread(
                     target=hmd_run, args=[minimal_publisher, device]
                 )
-                p.start()
-                processes.append(p)
+                t.start()
+                threads.append(t)
             elif device_type == "controller":
                 if device._id:
-                    p = multiprocessing.Process(
+                    t = threading.Thread(
                         target=controller1_run, args=[minimal_publisher, device]
                     )
-                    p.start()
-                    processes.append(p)
+                    t.start()
+                    threads.append(t)
                 else:
-                    p = multiprocessing.Process(
+                    t = threading.Thread(
                         target=controller2_run, args=[minimal_publisher, device]
                     )
-                    p.start()
-                    processes.append(p)
+                    t.start()
+                    threads.append(t)
             else:
                 print("not tracked device")
 
-    for process in processes:
-        process.join()
+    for thread in threads:
+        thread.join()
 
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
@@ -575,27 +580,30 @@ def main(args=None):
     rclpy.shutdown()
 
 
+# Initialize OpenVR wrapper and print discovered objects
+v = openvr_driver()
+v.print_discovered_objects()
+
+# Sort through all discovered devices and keep track by type
+device_count = 0
+devices = {"tracker": [], "hmd": [], "controller": [], "tracking reference": []}
+
+for device_name, device in v.devices.items():
+    device._id = device_name.split("_").pop()
+    devices[device.device_class.lower()].append(device)
+    device_count += 1
+
+ip = "127.0.0.1"
+port = 7000
+track = ["hmd", "controller"]
+freq = 250
+mode = ["euler", "quaternion"]
+
+# pose tracking interval
+interval = 1 / 250
+
 if __name__ == "__main__":
-    # Initialize OpenVR wrapper and print discovered objects
-    v = openvr_driver()
-    v.print_discovered_objects()
-
-    # Sort through all discovered devices and keep track by type
-    device_count = 0
-    devices = {"tracker": [], "hmd": [], "controller": [], "tracking reference": []}
-
-    for device_name, device in v.devices.items():
-        device._id = device_name.split("_").pop()
-        devices[device.device_class.lower()].append(device)
-        device_count += 1
-
-    ip = "127.0.0.1"
-    port = 7000
-    track = ["hmd", "controller"]
-    freq = 250
-    mode = ["euler", "quaternion"]
-
-    # pose tracking interval
-    interval = 1 / 250
+    # Tell Python to run the handler() function when SIGINT is recieved
+    signal(SIGINT, handler)
 
     main()
