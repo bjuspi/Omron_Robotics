@@ -4,14 +4,18 @@ import sys
 import openvr
 import math
 import json
-import multiprocessing
 import threading
+from signal import signal, SIGINT
 
 from functools import lru_cache
 
 from rclpy.node import Node
 from std_msgs.msg import String
 from vive_interfaces.msg import Hmd, Controller
+
+def handler(signal_received, frame):
+    print('SIGINT or CTRL-C detected. Exiting gracefully')
+    sys.exit(0)
 
 # Function to print out text but instead of starting a new line it will overwrite the existing line
 def update_text(txt):
@@ -599,4 +603,7 @@ mode = ["euler", "quaternion"]
 interval = 1 / 250
 
 if __name__ == "__main__":
+    # Tell Python to run the handler() function when SIGINT is recieved
+    signal(SIGINT, handler)
+
     main()
